@@ -1,11 +1,11 @@
-name: Atualizar e publicar o site
+name: Atualizar checagens (e publicar no GitHub Pages, se ligado)
 
 on:
   schedule:
     - cron: "0 9,21 * * *"   # duas vezes por dia (UTC): 06h e 18h em Brasília
   push:
     branches: [main]
-    paths: ["site/**", "scripts/**", ".github/workflows/site.yml"]
+    paths: ["scripts/**", ".github/workflows/site.yml"]
   workflow_dispatch:          # botão "Run workflow" na aba Actions
 
 permissions:
@@ -18,11 +18,8 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  publicar:
+  atualizar:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -30,6 +27,7 @@ jobs:
         run: python3 scripts/fetch_checagens.py
 
       # Guarda o acumulado no repositório (os feeds só trazem os últimos itens).
+      # Se o site estiver no Netlify, este commit é o que dispara o deploy.
       # Um push feito com o GITHUB_TOKEN não dispara outro workflow, então não há loop.
       - name: Salvar checagens no repositório
         run: |
@@ -38,6 +36,19 @@ jobs:
           git add site/index.html site/checagens.json site/checagens_semente.json
           git diff --staged --quiet || (git commit -m "Atualiza checagens" && git push)
 
+  # Só roda se você criar a variável do repositório USAR_PAGES = true
+  # (Settings > Secrets and variables > Actions > Variables). Com Netlify, deixe sem ela.
+  publicar-pages:
+    needs: atualizar
+    if: ${{ vars.USAR_PAGES == 'true' }}
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

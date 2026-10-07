@@ -1,0 +1,11 @@
+# Netlify: site estático, sem build. Publica a pasta site/.
+[build]
+  publish = "site"
+  # Só faz deploy quando algo dentro de site/ mudou (ignora commits do vigia, docs etc.).
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- site/"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

@@ -6,13 +6,23 @@ Há dois workflows em `.github/workflows/`.
 
 - Roda duas vezes por dia (06h e 18h de Brasília), a cada alteração em `site/` ou `scripts/`, e pelo botão "Run workflow".
 - Executa `scripts/fetch_checagens.py`, que lê os feeds da Agência Lupa, do Aos Fatos e do G1 Fato ou Fake e grava as checagens novas no `index.html` e em `site/checagens.json`.
-- Guarda o acumulado no repositório (os feeds só trazem os últimos itens) e publica a pasta `site/` no GitHub Pages.
+- Guarda o acumulado no repositório (os feeds só trazem os últimos itens). Esse commit é o que dispara a publicação no Netlify.
 
 Importante: o robô **não verifica veracidade**. Ele repassa o veredito que a agência já publicou, com título e link originais.
 
-### Ligar o GitHub Pages (uma vez)
+### Publicar no Netlify (recomendado se você já usa)
 
-Em Settings, Pages, escolha **Source: GitHub Actions**. Depois rode o workflow pela aba Actions.
+1. No Netlify: Add new site, Import from Git, escolha este repositório.
+2. Build command: vazio. Publish directory: `site` (o `netlify.toml` já diz isso).
+3. A cada commit em `site/` (inclusive os do robô) o Netlify publica sozinho. Commits que não mexem em `site/` são ignorados.
+
+Atenção ao limite do plano gratuito: confira no Netlify quantos deploys por mês ele permite, porque o robô gera até 2 por dia.
+
+### Publicar no GitHub Pages (alternativa, sem limite)
+
+1. Em Settings, Pages, escolha **Source: GitHub Actions**.
+2. Em Settings, Secrets and variables, Actions, Variables, crie `USAR_PAGES` com o valor `true`.
+3. Rode o workflow pela aba Actions.
 
 ## `vigia.yml`: avisar de notícia nova
 
