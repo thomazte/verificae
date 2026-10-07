@@ -24,4 +24,4 @@ O site abre sempre no tema claro (azul-marinho). O botão de sol e lua, no canto
 
 ## Rodapé
 
-O campo "Quem mantém este site" precisa ser preenchido antes de publicar. A legislação eleitoral exige identificação de quem publica.
+O campo "Quem mantém este site" identifica o responsável e o contato para correções. A legislação eleitoral exige identificação de quem publica, então mantenha-o sempre preenchido.
