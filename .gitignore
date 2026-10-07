@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.claude/
+# notas de trabalho (incluem itens que decidimos não publicar)
+dossie-*.md

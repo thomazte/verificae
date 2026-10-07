@@ -1,0 +1,37 @@
+name: Vigia de notícias
+
+# Procura notícias novas sobre o Flávio nos veículos aceitos e abre uma Issue para revisão.
+# Não publica nem altera o site.
+on:
+  schedule:
+    - cron: "0 11,17,23 * * *"   # 08h, 14h e 20h em Brasília
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  vigiar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Procurar notícias novas
+        run: python3 scripts/vigia.py
+
+      - name: Abrir Issue para revisão
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -f vigia/relatorio.md ]; then
+            gh label create revisar --color 0b2a5b --description "Notícia nova para revisar o dossiê" --force
+            gh issue create --label revisar --title "Notícias para revisar ($(TZ=America/Sao_Paulo date +'%d/%m %H:%M'))" --body-file vigia/relatorio.md
+          fi
+
+      - name: Guardar o que já foi visto
+        run: |
+          git config user.name "robo-vigia"
+          git config user.email "actions@users.noreply.github.com"
+          git add vigia/vistos.json
+          git diff --staged --quiet || (git commit -m "Atualiza vigia" && git push)
