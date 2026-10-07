@@ -64,6 +64,7 @@ def le(fonte, url, desde):
     return out
 
 def main():
+    ESTADO.parent.mkdir(exist_ok=True)  # a pasta não existe num checkout novo
     vistos = set(json.loads(ESTADO.read_text(encoding="utf8"))) if ESTADO.exists() else set()
     desde = datetime.now(timezone.utc) - timedelta(days=JANELA_DIAS)
     novos = []
@@ -88,7 +89,6 @@ def main():
             linhas.append(f"- [ ] [{i['titulo']}]({i['link']}), {i['fonte']}, {i['data']}{dica}")
         linhas += ["", "Marque os itens já revisados e feche esta issue."]
         RELATORIO.write_text("\n".join(linhas) + "\n", encoding="utf8")
-    ESTADO.parent.mkdir(exist_ok=True)
     vistos |= {i["link"] for i in novos}
     ESTADO.write_text(json.dumps(sorted(vistos)[-3000:], ensure_ascii=False, indent=0), encoding="utf8")
     print(f"{len(novos)} notícias novas")
