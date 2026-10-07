@@ -112,7 +112,6 @@ footer p{margin:0 0 16px}
     <h2 class="sec-title" id="checks-title">Checagens</h2>
     <div id="checks-list"></div>
   </section>
-  <p class="count" id="count" aria-live="polite"></p>
   <div id="list"></div>
   <p class="empty" id="empty">Nenhum item neste filtro.</p>
 </main>
@@ -121,7 +120,7 @@ footer p{margin:0 0 16px}
   <h2>Método</h2>
   <p>Só entram fatos publicados por veículos de grande circulação (G1, Folha, CNN Brasil, Poder360, Agência Brasil, Metrópoles) ou por órgãos oficiais. Alegações sem confirmação independente, falas de familiares e pedidos de adversários políticos ficam de fora. Quando há decisão favorável ao citado, ela aparece no mesmo cartão. As checagens são coletadas automaticamente da Agência Lupa, do Aos Fatos e do G1 Fato ou Fake, com o título e o link originais; não as editamos.</p>
   <h2>Quem mantém este site</h2>
-  <p>Responsável: Thom. Para correções ou pedido de resposta: <a href="https://x.com/aewkitzy" target="_blank" rel="noopener noreferrer">@aewkitzy no X</a>.</p>
+  <p>Responsável: Thomaz Arthur. Para correções ou pedido de resposta: <a href="https://x.com/aewkitzy" target="_blank" rel="noopener noreferrer">@aewkitzy no X</a>.</p>
 </footer>
 </div>
 <div class="toast" id="toast" role="status"></div>
@@ -2131,7 +2130,6 @@ function render(){
     act.append(wa,sh); c.append(act);
     list.append(c);
   });
-  $("#count").textContent = hideDossie ? "" : items.length + (items.length===1?" item do dossiê":" itens do dossiê");
   $("#empty").style.display = "none";
 }
 
