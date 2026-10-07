@@ -5,7 +5,7 @@ on:
     - cron: "0 9,21 * * *"   # duas vezes por dia (UTC): 06h e 18h em Brasília
   push:
     branches: [main]
-    paths: ["scripts/**", ".github/workflows/site.yml"]
+    paths: ["site/**", "scripts/**", ".github/workflows/site.yml"]
   workflow_dispatch:          # botão "Run workflow" na aba Actions
 
 permissions:
