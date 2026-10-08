@@ -27,8 +27,10 @@ STATUS = {
 ACOES = {"Novo cartão": "novo", "Atualizar cartão existente": "atualizar", "Remover cartão": "remover"}
 
 # Veículos e agências aceitos (domínio ou sufixo) e documentos oficiais.
+# A Folha fica de fora de propósito: tem paywall e o formulário exige que a matéria tenha sido lida.
+# (A Folha segue no vigia como alerta.)
 DOMINIOS = [
-    "g1.globo.com", "oglobo.globo.com", "folha.uol.com.br", "uol.com.br", "cnnbrasil.com.br",
+    "g1.globo.com", "oglobo.globo.com", "noticias.uol.com.br", "cnnbrasil.com.br",
     "poder360.com.br", "agenciabrasil.ebc.com.br", "metropoles.com", "conjur.com.br",
     "estadao.com.br", "lupa.news", "aosfatos.org",
     ".jus.br", ".gov.br", ".leg.br", ".mp.br",

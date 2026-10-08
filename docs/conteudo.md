@@ -9,11 +9,11 @@
 
 Se algo estiver errado (fonte fora da lista, campo faltando, ID inexistente), o robô não aplica nada, comenta o motivo e tira a etiqueta. Corrija e aprove de novo.
 
-**Paywall:** notícias da Folha aparecem marcadas com 🔒 e servem só de alerta. Cite no cartão uma matéria que você consegue ler (G1, CNN, Metrópoles, Agência Brasil…); o link "procurar cobertura aberta" ajuda a achar a mesma notícia em outro veículo.
+**Paywall:** notícias da Folha aparecem marcadas com 🔒 e servem só de alerta; o robô de aprovação **não aceita links da Folha**. Cite no cartão uma matéria que você consegue ler (G1, CNN, Metrópoles, Agência Brasil…); o link "procurar cobertura aberta" ajuda a achar a mesma notícia em outro veículo.
 
 Em **atualização**, campos vazios mantêm o que já existe, e as fontes novas são **acrescentadas** às antigas. Para remover uma fonte antiga, edite `site/dossie.json` e rode `python3 scripts/dossie.py embutir`.
 
-Fontes aceitas: G1, O Globo, Folha, UOL, CNN Brasil, Poder360, Agência Brasil, Metrópoles, Conjur, Estadão, Lupa, Aos Fatos e domínios oficiais (`.gov.br`, `.jus.br`, `.leg.br`, `.mp.br`). Links `http` sem `s` são recusados. Para incluir outro veículo, edite a lista `DOMINIOS` em `scripts/aplicar_issue.py`.
+Fontes aceitas: G1, O Globo, UOL Notícias, CNN Brasil, Poder360, Agência Brasil, Metrópoles, Conjur, Estadão, Lupa, Aos Fatos e domínios oficiais (`.gov.br`, `.jus.br`, `.leg.br`, `.mp.br`). Links `http` sem `s` são recusados. Para incluir outro veículo, edite a lista `DOMINIOS` em `scripts/aplicar_issue.py`.
 
 ## Regras para os cartões
 
