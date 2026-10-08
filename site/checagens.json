@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-08 15:56 UTC",
+ "atualizado": "2026-10-08 22:13 UTC",
  "itens": [
   {
    "titulo": "Flávio Bolsonaro não anunciou que vai acabar com o Farmácia Popular",
@@ -8,6 +8,63 @@
    "data": "2026-10-08",
    "veredito": "falso",
    "temas": []
+  },
+  {
+   "titulo": "É falso que mesários na Bahia distribuíram ‘colinhas’ do PT na fila de votação",
+   "link": "https://www.agencialupa.org/verificacao/2026/10/08/e-falso-que-mesarios-na-bahia-distribuiram-colinhas-do-pt-na-fila-de-votacao/",
+   "fonte": "Agência Lupa",
+   "data": "2026-10-08",
+   "veredito": "falso",
+   "temas": [
+    "Eleições",
+    "Bahia",
+    "eleições 2026",
+    "fraude"
+   ]
+  },
+  {
+   "titulo": "Montagem simula ‘g1’ para difundir declaração falsa que associa Lula à pedofilia",
+   "link": "https://www.aosfatos.org/noticias/montagem-g1-declaracao-falsa-lula-pedofilia/",
+   "fonte": "Aos Fatos",
+   "data": "2026-10-08",
+   "veredito": "falso",
+   "temas": []
+  },
+  {
+   "titulo": "É falso que PF descobriu esquema de compra de votos para Flávio",
+   "link": "https://www.aosfatos.org/noticias/pf-esquema-compra-votos-flavio/",
+   "fonte": "Aos Fatos",
+   "data": "2026-10-08",
+   "veredito": "falso",
+   "temas": []
+  },
+  {
+   "titulo": "É falso que vídeo mostra urna sendo trocada por outra com votos para Lula no RN",
+   "link": "https://www.aosfatos.org/noticias/urna-trocada-votos-lula-rn/",
+   "fonte": "Aos Fatos",
+   "data": "2026-10-08",
+   "veredito": "falso",
+   "temas": []
+  },
+  {
+   "titulo": "É #FAKE vídeo de Flávio Bolsonaro dizendo que, se eleito, vai cortar 13° e aposentadorias; fala foi manipulada com IA",
+   "link": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/08/e-fake-video-de-flavio-bolsonaro-dizendo-que-se-eleito-vai-cortar-13-e-aposentadorias-fala-foi-manipulada-com-ia.ghtml",
+   "fonte": "G1 Fato ou Fake",
+   "data": "2026-10-08",
+   "veredito": "falso",
+   "temas": [
+    "G1"
+   ]
+  },
+  {
+   "titulo": "É #FAKE SMS que manda regularizar título antes do 2º turno e indica site que cobra PIX de R$ 13,54",
+   "link": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/08/e-fake-sms-que-manda-regularizar-titulo-antes-do-2o-turno-e-indica-site-que-cobra-pix-de-r-1354.ghtml",
+   "fonte": "G1 Fato ou Fake",
+   "data": "2026-10-08",
+   "veredito": "falso",
+   "temas": [
+    "G1"
+   ]
   },
   {
    "titulo": "Queda no percentual de Flávio durante apuração não é indício de fraude",
