@@ -34,7 +34,7 @@ jobs:
           git config user.name "robo-checagens"
           git config user.email "actions@users.noreply.github.com"
           git add site/index.html site/checagens.json site/checagens_semente.json
-          git diff --staged --quiet || (git commit -m "Atualiza checagens" && git push)
+          git diff --staged --quiet || (git commit -m "Atualiza checagens" && git pull --rebase -q && git push)
 
   # Só roda se você criar a variável do repositório USAR_PAGES = true
   # (Settings > Secrets and variables > Actions > Variables). Com Netlify, deixe sem ela.

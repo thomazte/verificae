@@ -1,0 +1,86 @@
+name: Cartão do dossiê (novo, atualização ou remoção)
+description: Preencha, confira as fontes e, se estiver tudo certo, ponha a etiqueta "aprovado". O site é atualizado sozinho.
+title: "Cartão: "
+labels: ["cartao"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Só o dono do repositório consegue aprovar.** Ao colocar a etiqueta `aprovado`, o cartão é gravado no site e a issue é fechada.
+        Regras de conteúdo: veja `docs/conteudo.md`. Fontes só de veículos aceitos ou documentos oficiais.
+  - type: dropdown
+    id: acao
+    attributes:
+      label: Ação
+      options:
+        - Novo cartão
+        - Atualizar cartão existente
+        - Remover cartão
+    validations:
+      required: true
+  - type: input
+    id: id
+    attributes:
+      label: ID do cartão
+      description: "Obrigatório para atualizar ou remover (ex.: dark-horse). Em cartão novo, deixe vazio que o ID é criado a partir do título."
+  - type: dropdown
+    id: grupo
+    attributes:
+      label: Grupo
+      description: Obrigatório em cartão novo. Em atualização, deixe em branco para manter.
+      options:
+        - Casos e investigações
+        - Falas e posições
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      description: Obrigatório em cartão novo. Em atualização, deixe em branco para manter.
+      options:
+        - Investigado
+        - Arquivado
+        - Reportagem, sem investigação confirmada
+        - Fala
+        - Posição pública
+        - Decisão favorável a ele
+  - type: input
+    id: data
+    attributes:
+      label: Data ou período
+      description: "Ex.: 22/07/2026, ou Arquivado em 2022"
+  - type: input
+    id: titulo
+    attributes:
+      label: Título
+  - type: textarea
+    id: resumo
+    attributes:
+      label: Resumo
+      description: O que aconteceu, com fatos e sem adjetivos.
+  - type: textarea
+    id: situacao
+    attributes:
+      label: Situação atual
+      description: O estágio real do caso. Investigação não é condenação.
+  - type: textarea
+    id: defesa
+    attributes:
+      label: O que diz a defesa
+      description: Resposta de quem é citado. Se não houver, escreva isso.
+  - type: textarea
+    id: fontes
+    attributes:
+      label: "Fontes (uma por linha: Nome | https://link)"
+      description: "Em atualização, as fontes novas são ACRESCENTADAS às que já existem."
+      placeholder: "G1 | https://g1.globo.com/..."
+  - type: checkboxes
+    id: conferencia
+    attributes:
+      label: Conferência
+      options:
+        - label: Li as matérias e o resumo reflete o que elas dizem.
+          required: true
+        - label: Incluí a resposta da defesa (ou registrei que não há).
+          required: true
+        - label: O status usado é o real (investigado não é condenado; arquivado não é inocentado).
+          required: true

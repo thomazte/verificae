@@ -2009,67 +2009,240 @@ const VERED = {
 let CHECAGENS = [];
 let query = "";
 
-const ITEMS = [
-{ id:"dark-horse", grupo:"casos", status:"investigado", data:"22/07/2026", titulo:"Inquérito no STF sobre o financiamento do filme “Dark Horse”",
-  resumo:"O ministro André Mendonça, do STF, mandou a Polícia Federal apurar a participação de Flávio no financiamento do filme sobre Jair Bolsonaro com dinheiro de Daniel Vorcaro, dono do ex-Banco Master. Os crimes sob apuração são lavagem de dinheiro, evasão de divisas e corrupção. Cerca de R$ 61 milhões foram repassados por Vorcaro a um fundo no Texas ligado a pessoas próximas de Eduardo Bolsonaro. Segundo a PF, Flávio atuou como interlocutor direto do banqueiro nas tratativas. Ele foi incluído como investigado em 22/07, e o sigilo caiu em 10/09.",
-  situacao:"Inquérito em andamento. Não há denúncia nem condenação.",
-  defesa:"Mario Frias, aliado de Flávio, defende o financiamento e diz que não houve contrapartida e que patrocínio privado, por si só, não é crime.",
-  fontes:[["Agência Brasil","https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/mendonca-incluiu-flavio-bolsonaro-como-investigado-no-caso-dark-horse"],["Poder360","https://www.poder360.com.br/poder-justica/flavio-e-investigado-no-stf-por-financiamento-do-dark-horse/"],["Metrópoles (posição da PF)","https://www.metropoles.com/colunas/matheus-leitao/pf-flavio-bolsonaro-atuou-diretamente-no-financiamento-de-dark-horse"],["Metrópoles (defesa)","https://www.metropoles.com/brasil/frias-diz-que-flavio-nao-ofereceu-contrapartida-a-vorcaro-por-dark-horse"]] },
-
-{ id:"emenda-peixe", grupo:"casos", status:"reportagem", data:"Reportagem de 22/09/2026", titulo:"Assessora dele negociou emenda com condenado no caso Marielle",
-  resumo:"Mensagens de WhatsApp no celular de Robson Calixto, o “Peixe”, apreendido pela PF, mostram que uma secretária parlamentar do gabinete de Flávio negociou, em outubro e novembro de 2023, uma emenda de R$ 199.999,79 para um instituto esportivo. Peixe foi condenado pelo STF em fevereiro de 2026 a 9 anos de prisão no caso Marielle. As conversas fazem parte de uma investigação sigilosa no STF sobre desvio de emendas a entidades ligadas aos irmãos Brazão.",
-  situacao:"A reportagem não diz que Flávio é investigado por isso. A apuração é sobre o destino das emendas.",
-  defesa:"O gabinete diz que a emenda seguiu a legislação e os critérios técnicos do Ministério do Esporte, e que a entidade apresentou notas e devolveu valores não utilizados. Sobre a apuração das emendas no STF, Flávio diz que o ministro Flávio Dino faz “perseguição”.",
-  fontes:[["CNN Brasil","https://www.cnnbrasil.com.br/politica/assessora-de-flavio-negociou-emenda-com-condenado-em-caso-marielle/"],["Poder360","https://www.poder360.com.br/poder-congresso/assessora-de-flavio-tratou-de-emenda-com-miliciano-do-caso-marielle/"],["Poder360 (resposta dele sobre Dino)","https://www.poder360.com.br/poder-eleicoes-2026/flavio-diz-que-dino-faz-perseguicao-no-stf-em-apuracao-sobre-emendas/"]] },
-
-{ id:"notas-fiscais", grupo:"casos", status:"reportagem", data:"22/07/2026", titulo:"Notas de R$ 500 mil emitidas e canceladas por seu escritório",
-  resumo:"O escritório de advocacia de Flávio emitiu duas notas fiscais de R$ 500 mil para empresas ligadas a um empresário suspeito de ter relação com operações investigadas no caso Master, e as cancelou em 07/04/2025. Dois dias depois, emitiu uma terceira nota de R$ 500 mil, para a Contábil Correa, que não foi cancelada. A informação foi revelada pelo Metrópoles e confirmada pela CNN com dados da Receita. Segundo o Metrópoles, a Copenhagen foi usada por Vorcaro para movimentar R$ 58 milhões do Banco Master, e seu administrador, o contador Rogério Lourenço Novo, também é sócio único da Contábil Correa e é investigado pela PF por movimentar e ocultar bens do grupo de Vorcaro.",
-  situacao:"A CNN diz não ter conseguido confirmar se há investigação aberta sobre as notas. Quem é investigado pela PF, segundo o Metrópoles, é o administrador das empresas, e não Flávio. Um deputado pediu à PF que apure as notas, mas isso é um pedido, não uma investigação aberta.",
-  defesa:"Flávio diz que foi consultado para prestar serviços à Copenhagen, mas a contratação não avançou e o escritório não recebeu valor algum, por isso cancelou as duas notas. Diz também que prestou serviços advocatícios à Contábil Correa, sem ligação com Vorcaro.",
-  fontes:[["CNN Brasil","https://www.cnnbrasil.com.br/politica/flavio-emitiu-e-cancelou-notas-para-empresa-ligada-ao-caso-master/"],["CNN Brasil (resposta dele)","https://www.cnnbrasil.com.br/politica/flavio-nega-ter-recebido-dinheiro-de-empresa-ligada-ao-caso-master/"],["Poder360","https://www.poder360.com.br/poder-eleicoes-2026/flavio-emitiu-notas-fiscais-para-cobrar-de-empresas-ligadas-a-vorcaro/"],["Metrópoles (Copenhagen e Master)","https://www.metropoles.com/colunas/tacio-lorran/flavio-bolsonaro-emitiu-r-15-milhao-em-notas-para-empresas-usadas-em-esquema-de-vorcaro"]] },
-
-{ id:"rachadinha", grupo:"casos", status:"arquivado", data:"Arquivado em 2022", titulo:"“Rachadinha” na Assembleia do Rio",
-  resumo:"O Ministério Público do Rio denunciou Flávio por organização criminosa, peculato e lavagem de dinheiro, sob a acusação de comandar um esquema de devolução de parte dos salários de assessores, operado por Fabrício Queiroz. Decisões do STJ e do STF anularam provas usadas pelo MP, e o TJ-RJ arquivou a denúncia em 2022.",
-  situacao:"Arquivado por falta de justa causa, sem julgamento do mérito. Isso não é condenação nem absolvição, e novas investigações com provas válidas continuam possíveis.",
-  defesa:"Flávio sempre negou irregularidades.",
-  fontes:[["Conjur","https://conjur.com.br/2022-mai-16/tj-rj-arquiva-denuncia-flavio-bolsonaro-rachadinha/"]] },
-
-{ id:"kopenhagen", grupo:"casos", status:"arquivado", data:"Denúncia de nov/2020 · arquivada em 2022", titulo:"Loja de chocolates Kopenhagen na denúncia da rachadinha",
-  resumo:"Flávio e um sócio administravam uma franquia da Kopenhagen num shopping da Barra da Tijuca. Na denúncia, o MP-RJ afirmou que a loja serviria para inserir no patrimônio dele, sem levantar suspeita, dinheiro do esquema da Assembleia. O empresário que vendeu a franquia disse ao MP que a loja vendia produtos abaixo da tabela enquanto registrava preços cheios nas notas. A Kopenhagen confirmou a irregularidade de preços em auditoria interna e aplicou advertência e multa.",
-  situacao:"A acusação sobre a loja fazia parte da denúncia da rachadinha, arquivada em 2022 depois da anulação de provas, sem julgamento do mérito. A irregularidade de preços apurada pela própria Kopenhagen é um fato à parte, e não houve condenação por lavagem.",
-  defesa:"A defesa disse que o MP buscava atacar a imagem pública de Flávio e acusou violação do sigilo da investigação.",
-  fontes:[["Poder360 (denúncia e loja)","https://www.poder360.com.br/brasil/flavio-bolsonaro-entrega-loja-de-chocolates-investigada-pelo-mp/"],["Poder360 (relato do ex-franqueador)","https://www.poder360.com.br/brasil/empresario-diz-que-loja-de-flavio-bolsonaro-fraudava-notas-fiscais/"]] },
-
-{ id:"abin", grupo:"casos", status:"reportagem", data:"2020 (revelado em 2020 e 2024)", titulo:"“Abin paralela” e a investigação da rachadinha",
-  resumo:"Em dezembro de 2020, a revista Época publicou que a Abin teria produzido relatórios de orientação para a defesa de Flávio no caso Queiroz. Em 2024, a PF encontrou num aparelho de Alexandre Ramagem, ex-diretor da Abin, um áudio de agosto de 2020 de uma reunião em que Jair Bolsonaro e Ramagem, entre outros participantes, discutem um plano para anular a investigação contra Flávio, por meio de procedimentos contra auditores da Receita. Segundo o relatório da PF, advogados de Flávio estavam na reunião. A PF afirma que a Abin atuou ilegalmente em favor dos filhos de Bolsonaro.",
-  situacao:"Em junho de 2025 a PF concluiu a investigação e indiciou 36 pessoas, entre elas Jair Bolsonaro, Carlos Bolsonaro e Ramagem. As matérias que consultei não incluem Flávio entre os indiciados. Em junho de 2026 a PGR pediu que o caso saia do STF e vá para a primeira instância.",
-  defesa:"Flávio e Ramagem negaram, em 2020, a existência de relatório da Abin para auxiliar a defesa. Em 2024, Flávio disse nunca ter tido relação com a Abin e afirmou que a operação visava interferir nas eleições municipais.",
-  fontes:[["CNN Brasil (áudio de 2020)","https://www.cnnbrasil.com.br/politica/abin-paralela-audio-aponta-que-bolsonaro-e-ramagem-discutiram-plano-para-anular-investigacao-contra-flavio-bolsonaro/"],["Metrópoles (negativa de 2020)","https://www.metropoles.com/brasil/politica-brasil/ramagem-e-flavio-bolsonaro-negam-relatorio-da-abin-em-favor-do-senador"],["Agência Brasil (PF e Abin)","https://agenciabrasil.ebc.com.br/geral/noticia/2024-07/pf-diz-que-abin-atuou-ilegalmente-em-favor-de-filhos-de-bolsonaro"],["CNN Brasil (indiciamentos)","https://www.cnnbrasil.com.br/politica/pf-conclui-abin-paralela-e-indicia-bolsonaro-ramagem-e-carlos/"],["Poder360 (pedido da PGR)","https://www.poder360.com.br/poder-justica/pgr-quer-que-investigacao-sobre-abin-paralela-va-para-1a-instancia/"]] },
-
-{ id:"nobrega", grupo:"casos", status:"reportagem", data:"2005 a 2018", titulo:"Homenagem a Adriano da Nóbrega e parentes no gabinete",
-  resumo:"Em 2005, na Assembleia do Rio, Flávio homenageou o ex-capitão Adriano da Nóbrega, depois apontado como chefe de milícia. A mãe e a ex-mulher de Adriano constavam como funcionárias do gabinete de Flávio até 2018. Adriano era amigo de Fabrício Queiroz, ex-assessor de Flávio.",
-  situacao:"Relação documentada pela imprensa. Não há acusação criminal contra Flávio por isso.",
-  defesa:"Não localizei, em veículo grande, uma resposta específica dele sobre este ponto.",
-  fontes:[["Poder360","https://poder360.com.br/justica/dialogos-sugerem-que-comparsas-de-adriano-da-nobrega-contactaram-bolsonaro-diz-site"]] },
-
-{ id:"redemocratizar", grupo:"falas", status:"fala", data:"06/10/2026 · Goiânia", titulo:"“Mudar a Constituição para redemocratizar o país”",
-  resumo:"Ao receber o apoio de Ronaldo Caiado, Flávio disse que já há maioria na Câmara e no Senado “para mudar a Constituição para redemocratizar o país”. Parte dos ministros do STF se preocupou com o termo, por aplicá-lo a um país que já é democrático, e o leu como possível sinal de revanche.",
-  situacao:"Emendar a Constituição é um procedimento legal. O que é criticado é o termo e o contexto, não o ato em si.",
-  defesa:"No dia seguinte (07/10), Flávio disse que a mudança se refere à reforma do STF e ao fim da reeleição. Segundo o G1, a proposta inclui reduzir a maioridade penal e adotar medidas contra o STF.",
-  fontes:[["Metrópoles","https://www.metropoles.com/brasil/flavio-promete-mudar-constituicao-para-redemocratizar-o-pais"],["Metrópoles (reação no STF)","https://www.metropoles.com/colunas/matheus-leitao/o-temor-em-parte-do-stf-apos-fala-de-flavio-bolsonaro-em-goias"],["CNN Brasil","https://www.cnnbrasil.com.br/eleicoes/flavio-diz-que-usara-maioria-no-congresso-para-mudar-constituicao/"],["G1 (explicação dele, 07/10)","https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/07/flavio-diz-que-proposta-de-mudanca-na-constituicao-inclui-reducao-da-maioridade-penal-e-medidas-contra-o-stf.ghtml"]] },
-
-{ id:"urnas", grupo:"falas", status:"fala", data:"21/07/2026 · evento com diplomatas", titulo:"Suspeita sobre a Smartmatic e a votação",
-  resumo:"Em evento com diplomatas, Flávio disse que uma das suspeitas é que a Smartmatic, “de origem venezuelana”, teria programação para alterar votações. Ministros do STF e do TSE consideraram a fala grave, em caráter reservado. O presidente do TSE, Kassio Nunes Marques, que estava no evento, autorizou o gabinete a recompartilhar uma nota de 2020 que desmente a tese.",
-  situacao:"O TSE reforçou que a empresa venezuelana não forneceu urnas ao Brasil. O PT, com PCdoB e PV, acionou o TSE pedindo que Flávio seja condenado por divulgar fatos sabidamente falsos, com multa de R$ 30 mil para cada um dos quatro réus. Não encontrei decisão sobre o pedido.",
-  defesa:"A campanha disse em nota que ele não questionou a integridade do sistema eletrônico de votação e apenas relatou fatos públicos.",
-  fontes:[["CNN Brasil","https://www.cnnbrasil.com.br/eleicoes/ministros-consideram-fala-de-flavio-grave-mas-adotam-cautela-sobre-punicao/"],["Agência Brasil (nota do TSE)","https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/tse-reforca-que-empresa-venezuelana-nao-forneceu-urnas-ao-brasil"],["CNN Brasil (ação do PT)","https://www.cnnbrasil.com.br/blogs/caio-junqueira/eleicoes/pt-aciona-tse-contra-declaracoes-de-flavio-bolsonaro-sobre-urna-eletronica/"]] },
-
-{ id:"anistia", grupo:"falas", status:"posicao", data:"Campanha de 2026", titulo:"Anistia total aos condenados do 8 de janeiro",
-  resumo:"A anistia a condenados pelos atos de 8 de janeiro e pela tentativa de golpe é uma bandeira declarada da campanha. Ao visitar Anderson Torres na Papuda, Flávio se comprometeu a continuar lutando por “anistia total”. O pai, Jair Bolsonaro, foi condenado pelo STF a 27 anos e 3 meses de prisão por crimes ligados à tentativa de golpe.",
-  situacao:"É uma proposta política. A discussão sobre se uma anistia desse tipo seria constitucional é jurídica e não está resolvida aqui.",
-  defesa:"Ele defende a anistia publicamente como bandeira de campanha. Não localizei, em veículo grande, uma justificativa dele que eu possa citar literalmente.",
-  fontes:[["CNN Brasil","https://www.cnnbrasil.com.br/politica/flavio-visita-anderson-torres-na-papuda-e-pede-anistia-a-condenados-do-8-1/"]] }
-];
+const ITEMS = /*DOSSIE*/[
+ {
+  "id": "dark-horse",
+  "grupo": "casos",
+  "status": "investigado",
+  "data": "22/07/2026",
+  "titulo": "Inquérito no STF sobre o financiamento do filme “Dark Horse”",
+  "resumo": "O ministro André Mendonça, do STF, mandou a Polícia Federal apurar a participação de Flávio no financiamento do filme sobre Jair Bolsonaro com dinheiro de Daniel Vorcaro, dono do ex-Banco Master. Os crimes sob apuração são lavagem de dinheiro, evasão de divisas e corrupção. Cerca de R$ 61 milhões foram repassados por Vorcaro a um fundo no Texas ligado a pessoas próximas de Eduardo Bolsonaro. Segundo a PF, Flávio atuou como interlocutor direto do banqueiro nas tratativas. Ele foi incluído como investigado em 22/07, e o sigilo caiu em 10/09.",
+  "situacao": "Inquérito em andamento. Não há denúncia nem condenação.",
+  "defesa": "Mario Frias, aliado de Flávio, defende o financiamento e diz que não houve contrapartida e que patrocínio privado, por si só, não é crime.",
+  "fontes": [
+   [
+    "Agência Brasil",
+    "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/mendonca-incluiu-flavio-bolsonaro-como-investigado-no-caso-dark-horse"
+   ],
+   [
+    "Poder360",
+    "https://www.poder360.com.br/poder-justica/flavio-e-investigado-no-stf-por-financiamento-do-dark-horse/"
+   ],
+   [
+    "Metrópoles (posição da PF)",
+    "https://www.metropoles.com/colunas/matheus-leitao/pf-flavio-bolsonaro-atuou-diretamente-no-financiamento-de-dark-horse"
+   ],
+   [
+    "Metrópoles (defesa)",
+    "https://www.metropoles.com/brasil/frias-diz-que-flavio-nao-ofereceu-contrapartida-a-vorcaro-por-dark-horse"
+   ]
+  ]
+ },
+ {
+  "id": "emenda-peixe",
+  "grupo": "casos",
+  "status": "reportagem",
+  "data": "Reportagem de 22/09/2026",
+  "titulo": "Assessora dele negociou emenda com condenado no caso Marielle",
+  "resumo": "Mensagens de WhatsApp no celular de Robson Calixto, o “Peixe”, apreendido pela PF, mostram que uma secretária parlamentar do gabinete de Flávio negociou, em outubro e novembro de 2023, uma emenda de R$ 199.999,79 para um instituto esportivo. Peixe foi condenado pelo STF em fevereiro de 2026 a 9 anos de prisão no caso Marielle. As conversas fazem parte de uma investigação sigilosa no STF sobre desvio de emendas a entidades ligadas aos irmãos Brazão.",
+  "situacao": "A reportagem não diz que Flávio é investigado por isso. A apuração é sobre o destino das emendas.",
+  "defesa": "O gabinete diz que a emenda seguiu a legislação e os critérios técnicos do Ministério do Esporte, e que a entidade apresentou notas e devolveu valores não utilizados. Sobre a apuração das emendas no STF, Flávio diz que o ministro Flávio Dino faz “perseguição”.",
+  "fontes": [
+   [
+    "CNN Brasil",
+    "https://www.cnnbrasil.com.br/politica/assessora-de-flavio-negociou-emenda-com-condenado-em-caso-marielle/"
+   ],
+   [
+    "Poder360",
+    "https://www.poder360.com.br/poder-congresso/assessora-de-flavio-tratou-de-emenda-com-miliciano-do-caso-marielle/"
+   ],
+   [
+    "Poder360 (resposta dele sobre Dino)",
+    "https://www.poder360.com.br/poder-eleicoes-2026/flavio-diz-que-dino-faz-perseguicao-no-stf-em-apuracao-sobre-emendas/"
+   ]
+  ]
+ },
+ {
+  "id": "notas-fiscais",
+  "grupo": "casos",
+  "status": "reportagem",
+  "data": "22/07/2026",
+  "titulo": "Notas de R$ 500 mil emitidas e canceladas por seu escritório",
+  "resumo": "O escritório de advocacia de Flávio emitiu duas notas fiscais de R$ 500 mil para empresas ligadas a um empresário suspeito de ter relação com operações investigadas no caso Master, e as cancelou em 07/04/2025. Dois dias depois, emitiu uma terceira nota de R$ 500 mil, para a Contábil Correa, que não foi cancelada. A informação foi revelada pelo Metrópoles e confirmada pela CNN com dados da Receita. Segundo o Metrópoles, a Copenhagen foi usada por Vorcaro para movimentar R$ 58 milhões do Banco Master, e seu administrador, o contador Rogério Lourenço Novo, também é sócio único da Contábil Correa e é investigado pela PF por movimentar e ocultar bens do grupo de Vorcaro.",
+  "situacao": "A CNN diz não ter conseguido confirmar se há investigação aberta sobre as notas. Quem é investigado pela PF, segundo o Metrópoles, é o administrador das empresas, e não Flávio. Um deputado pediu à PF que apure as notas, mas isso é um pedido, não uma investigação aberta.",
+  "defesa": "Flávio diz que foi consultado para prestar serviços à Copenhagen, mas a contratação não avançou e o escritório não recebeu valor algum, por isso cancelou as duas notas. Diz também que prestou serviços advocatícios à Contábil Correa, sem ligação com Vorcaro.",
+  "fontes": [
+   [
+    "CNN Brasil",
+    "https://www.cnnbrasil.com.br/politica/flavio-emitiu-e-cancelou-notas-para-empresa-ligada-ao-caso-master/"
+   ],
+   [
+    "CNN Brasil (resposta dele)",
+    "https://www.cnnbrasil.com.br/politica/flavio-nega-ter-recebido-dinheiro-de-empresa-ligada-ao-caso-master/"
+   ],
+   [
+    "Poder360",
+    "https://www.poder360.com.br/poder-eleicoes-2026/flavio-emitiu-notas-fiscais-para-cobrar-de-empresas-ligadas-a-vorcaro/"
+   ],
+   [
+    "Metrópoles (Copenhagen e Master)",
+    "https://www.metropoles.com/colunas/tacio-lorran/flavio-bolsonaro-emitiu-r-15-milhao-em-notas-para-empresas-usadas-em-esquema-de-vorcaro"
+   ]
+  ]
+ },
+ {
+  "id": "rachadinha",
+  "grupo": "casos",
+  "status": "arquivado",
+  "data": "Arquivado em 2022",
+  "titulo": "“Rachadinha” na Assembleia do Rio",
+  "resumo": "O Ministério Público do Rio denunciou Flávio por organização criminosa, peculato e lavagem de dinheiro, sob a acusação de comandar um esquema de devolução de parte dos salários de assessores, operado por Fabrício Queiroz. Decisões do STJ e do STF anularam provas usadas pelo MP, e o TJ-RJ arquivou a denúncia em 2022.",
+  "situacao": "Arquivado por falta de justa causa, sem julgamento do mérito. Isso não é condenação nem absolvição, e novas investigações com provas válidas continuam possíveis.",
+  "defesa": "Flávio sempre negou irregularidades.",
+  "fontes": [
+   [
+    "Conjur",
+    "https://conjur.com.br/2022-mai-16/tj-rj-arquiva-denuncia-flavio-bolsonaro-rachadinha/"
+   ]
+  ]
+ },
+ {
+  "id": "kopenhagen",
+  "grupo": "casos",
+  "status": "arquivado",
+  "data": "Denúncia de nov/2020 · arquivada em 2022",
+  "titulo": "Loja de chocolates Kopenhagen na denúncia da rachadinha",
+  "resumo": "Flávio e um sócio administravam uma franquia da Kopenhagen num shopping da Barra da Tijuca. Na denúncia, o MP-RJ afirmou que a loja serviria para inserir no patrimônio dele, sem levantar suspeita, dinheiro do esquema da Assembleia. O empresário que vendeu a franquia disse ao MP que a loja vendia produtos abaixo da tabela enquanto registrava preços cheios nas notas. A Kopenhagen confirmou a irregularidade de preços em auditoria interna e aplicou advertência e multa.",
+  "situacao": "A acusação sobre a loja fazia parte da denúncia da rachadinha, arquivada em 2022 depois da anulação de provas, sem julgamento do mérito. A irregularidade de preços apurada pela própria Kopenhagen é um fato à parte, e não houve condenação por lavagem.",
+  "defesa": "A defesa disse que o MP buscava atacar a imagem pública de Flávio e acusou violação do sigilo da investigação.",
+  "fontes": [
+   [
+    "Poder360 (denúncia e loja)",
+    "https://www.poder360.com.br/brasil/flavio-bolsonaro-entrega-loja-de-chocolates-investigada-pelo-mp/"
+   ],
+   [
+    "Poder360 (relato do ex-franqueador)",
+    "https://www.poder360.com.br/brasil/empresario-diz-que-loja-de-flavio-bolsonaro-fraudava-notas-fiscais/"
+   ]
+  ]
+ },
+ {
+  "id": "abin",
+  "grupo": "casos",
+  "status": "reportagem",
+  "data": "2020 (revelado em 2020 e 2024)",
+  "titulo": "“Abin paralela” e a investigação da rachadinha",
+  "resumo": "Em dezembro de 2020, a revista Época publicou que a Abin teria produzido relatórios de orientação para a defesa de Flávio no caso Queiroz. Em 2024, a PF encontrou num aparelho de Alexandre Ramagem, ex-diretor da Abin, um áudio de agosto de 2020 de uma reunião em que Jair Bolsonaro e Ramagem, entre outros participantes, discutem um plano para anular a investigação contra Flávio, por meio de procedimentos contra auditores da Receita. Segundo o relatório da PF, advogados de Flávio estavam na reunião. A PF afirma que a Abin atuou ilegalmente em favor dos filhos de Bolsonaro.",
+  "situacao": "Em junho de 2025 a PF concluiu a investigação e indiciou 36 pessoas, entre elas Jair Bolsonaro, Carlos Bolsonaro e Ramagem. As matérias que consultei não incluem Flávio entre os indiciados. Em junho de 2026 a PGR pediu que o caso saia do STF e vá para a primeira instância.",
+  "defesa": "Flávio e Ramagem negaram, em 2020, a existência de relatório da Abin para auxiliar a defesa. Em 2024, Flávio disse nunca ter tido relação com a Abin e afirmou que a operação visava interferir nas eleições municipais.",
+  "fontes": [
+   [
+    "CNN Brasil (áudio de 2020)",
+    "https://www.cnnbrasil.com.br/politica/abin-paralela-audio-aponta-que-bolsonaro-e-ramagem-discutiram-plano-para-anular-investigacao-contra-flavio-bolsonaro/"
+   ],
+   [
+    "Metrópoles (negativa de 2020)",
+    "https://www.metropoles.com/brasil/politica-brasil/ramagem-e-flavio-bolsonaro-negam-relatorio-da-abin-em-favor-do-senador"
+   ],
+   [
+    "Agência Brasil (PF e Abin)",
+    "https://agenciabrasil.ebc.com.br/geral/noticia/2024-07/pf-diz-que-abin-atuou-ilegalmente-em-favor-de-filhos-de-bolsonaro"
+   ],
+   [
+    "CNN Brasil (indiciamentos)",
+    "https://www.cnnbrasil.com.br/politica/pf-conclui-abin-paralela-e-indicia-bolsonaro-ramagem-e-carlos/"
+   ],
+   [
+    "Poder360 (pedido da PGR)",
+    "https://www.poder360.com.br/poder-justica/pgr-quer-que-investigacao-sobre-abin-paralela-va-para-1a-instancia/"
+   ]
+  ]
+ },
+ {
+  "id": "nobrega",
+  "grupo": "casos",
+  "status": "reportagem",
+  "data": "2005 a 2018",
+  "titulo": "Homenagem a Adriano da Nóbrega e parentes no gabinete",
+  "resumo": "Em 2005, na Assembleia do Rio, Flávio homenageou o ex-capitão Adriano da Nóbrega, depois apontado como chefe de milícia. A mãe e a ex-mulher de Adriano constavam como funcionárias do gabinete de Flávio até 2018. Adriano era amigo de Fabrício Queiroz, ex-assessor de Flávio.",
+  "situacao": "Relação documentada pela imprensa. Não há acusação criminal contra Flávio por isso.",
+  "defesa": "Não localizei, em veículo grande, uma resposta específica dele sobre este ponto.",
+  "fontes": [
+   [
+    "Poder360",
+    "https://poder360.com.br/justica/dialogos-sugerem-que-comparsas-de-adriano-da-nobrega-contactaram-bolsonaro-diz-site"
+   ]
+  ]
+ },
+ {
+  "id": "redemocratizar",
+  "grupo": "falas",
+  "status": "fala",
+  "data": "06/10/2026 · Goiânia",
+  "titulo": "“Mudar a Constituição para redemocratizar o país”",
+  "resumo": "Ao receber o apoio de Ronaldo Caiado, Flávio disse que já há maioria na Câmara e no Senado “para mudar a Constituição para redemocratizar o país”. Parte dos ministros do STF se preocupou com o termo, por aplicá-lo a um país que já é democrático, e o leu como possível sinal de revanche.",
+  "situacao": "Emendar a Constituição é um procedimento legal. O que é criticado é o termo e o contexto, não o ato em si.",
+  "defesa": "No dia seguinte (07/10), Flávio disse que a mudança se refere à reforma do STF e ao fim da reeleição. Segundo o G1, a proposta inclui reduzir a maioridade penal e adotar medidas contra o STF.",
+  "fontes": [
+   [
+    "Metrópoles",
+    "https://www.metropoles.com/brasil/flavio-promete-mudar-constituicao-para-redemocratizar-o-pais"
+   ],
+   [
+    "Metrópoles (reação no STF)",
+    "https://www.metropoles.com/colunas/matheus-leitao/o-temor-em-parte-do-stf-apos-fala-de-flavio-bolsonaro-em-goias"
+   ],
+   [
+    "CNN Brasil",
+    "https://www.cnnbrasil.com.br/eleicoes/flavio-diz-que-usara-maioria-no-congresso-para-mudar-constituicao/"
+   ],
+   [
+    "G1 (explicação dele, 07/10)",
+    "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/07/flavio-diz-que-proposta-de-mudanca-na-constituicao-inclui-reducao-da-maioridade-penal-e-medidas-contra-o-stf.ghtml"
+   ]
+  ]
+ },
+ {
+  "id": "urnas",
+  "grupo": "falas",
+  "status": "fala",
+  "data": "21/07/2026 · evento com diplomatas",
+  "titulo": "Suspeita sobre a Smartmatic e a votação",
+  "resumo": "Em evento com diplomatas, Flávio disse que uma das suspeitas é que a Smartmatic, “de origem venezuelana”, teria programação para alterar votações. Ministros do STF e do TSE consideraram a fala grave, em caráter reservado. O presidente do TSE, Kassio Nunes Marques, que estava no evento, autorizou o gabinete a recompartilhar uma nota de 2020 que desmente a tese.",
+  "situacao": "O TSE reforçou que a empresa venezuelana não forneceu urnas ao Brasil. O PT, com PCdoB e PV, acionou o TSE pedindo que Flávio seja condenado por divulgar fatos sabidamente falsos, com multa de R$ 30 mil para cada um dos quatro réus. Não encontrei decisão sobre o pedido.",
+  "defesa": "A campanha disse em nota que ele não questionou a integridade do sistema eletrônico de votação e apenas relatou fatos públicos.",
+  "fontes": [
+   [
+    "CNN Brasil",
+    "https://www.cnnbrasil.com.br/eleicoes/ministros-consideram-fala-de-flavio-grave-mas-adotam-cautela-sobre-punicao/"
+   ],
+   [
+    "Agência Brasil (nota do TSE)",
+    "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/tse-reforca-que-empresa-venezuelana-nao-forneceu-urnas-ao-brasil"
+   ],
+   [
+    "CNN Brasil (ação do PT)",
+    "https://www.cnnbrasil.com.br/blogs/caio-junqueira/eleicoes/pt-aciona-tse-contra-declaracoes-de-flavio-bolsonaro-sobre-urna-eletronica/"
+   ]
+  ]
+ },
+ {
+  "id": "anistia",
+  "grupo": "falas",
+  "status": "posicao",
+  "data": "Campanha de 2026",
+  "titulo": "Anistia total aos condenados do 8 de janeiro",
+  "resumo": "A anistia a condenados pelos atos de 8 de janeiro e pela tentativa de golpe é uma bandeira declarada da campanha. Ao visitar Anderson Torres na Papuda, Flávio se comprometeu a continuar lutando por “anistia total”. O pai, Jair Bolsonaro, foi condenado pelo STF a 27 anos e 3 meses de prisão por crimes ligados à tentativa de golpe.",
+  "situacao": "É uma proposta política. A discussão sobre se uma anistia desse tipo seria constitucional é jurídica e não está resolvida aqui.",
+  "defesa": "Ele defende a anistia publicamente como bandeira de campanha. Não localizei, em veículo grande, uma justificativa dele que eu possa citar literalmente.",
+  "fontes": [
+   [
+    "CNN Brasil",
+    "https://www.cnnbrasil.com.br/politica/flavio-visita-anderson-torres-na-papuda-e-pede-anistia-a-condenados-do-8-1/"
+   ]
+  ]
+ }
+]/*FIMDOSSIE*/;
 
 const $ = s => document.querySelector(s);
 let filtro = "todos";

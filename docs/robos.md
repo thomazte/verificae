@@ -32,6 +32,13 @@ Atenção ao limite do plano gratuito: confira no Netlify quantos deploys por m�
 - **Não publica nem altera o site.** O dossiê só muda quando uma pessoa revisa e edita.
 - Guarda o que já foi visto em `vigia/vistos.json`, para não repetir.
 
+## `aprovar.yml`: aplicar uma issue aprovada
+
+- Dispara quando a etiqueta `aprovado` é colocada numa issue do formulário **Cartão do dossiê**, e só se quem colocou for o dono do repositório.
+- Executa `scripts/aplicar_issue.py`, que valida os campos (status e grupo de listas fechadas, links `https` de veículos aceitos, tamanhos, sem `<` ou `>`), altera `site/dossie.json` e o `index.html`, comenta o resultado e fecha a issue.
+- Depois chama o `site.yml` para publicar (um push com o token do workflow não dispara outro workflow sozinho).
+- O conteúdo da issue é tratado só como dado: nada vira comando.
+
 ## Fontes aceitas
 
 G1, Folha, CNN Brasil, Poder360, Agência Brasil e Metrópoles para notícias; Agência Lupa, Aos Fatos e G1 Fato ou Fake para checagens. A Agência Brasil pode tirar páginas do ar durante o período eleitoral; nesse caso, troque o link por equivalente de outro veículo.

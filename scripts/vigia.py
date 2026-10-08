@@ -82,7 +82,7 @@ def main():
     if novos:
         linhas = ["Notícias novas sobre Flávio Bolsonaro nos veículos aceitos. **Nada foi publicado.** "
                   "Leia, e se algum fato mudar (status de investigação, decisão, resposta da defesa), "
-                  "atualize o cartão indicado em `site/index.html`.", ""]
+                  "abra uma issue com o formulário **Cartão do dossiê** (aba Issues, New issue), confira e ponha a etiqueta `aprovado`: o site é atualizado sozinho.", ""]
         for i in novos:
             c = cartoes_afetados(i["titulo"])
             dica = f" (cartão: {', '.join(c)})" if c else ""

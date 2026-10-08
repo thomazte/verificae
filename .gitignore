@@ -3,3 +3,5 @@ __pycache__/
 .claude/
 # notas de trabalho (incluem itens que decidimos não publicar)
 dossie-*.md
+vigia/relatorio.md
+resultado.md
