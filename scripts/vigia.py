@@ -5,7 +5,8 @@ monta vigia/relatorio.md para ser aberto como Issue no GitHub.
 NÃO publica nada e NÃO altera o site. Serve para avisar uma pessoa de que algo novo
 saiu e de quais cartões do dossiê talvez precisem de revisão.
 """
-import json, re, sys
+import json, os, re, sys
+from urllib.parse import quote
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
@@ -42,6 +43,17 @@ CARTOES = [
     ("nobrega", r"N[óo]brega|mil[íi]cia"),
 ]
 
+REPO = os.environ.get("GITHUB_REPOSITORY", "thomazte/verificae")
+
+def link_formulario(acao, id_=None, fonte=None, titulo=None):
+    """Link que abre o formulário de cartão já preenchido (issue forms aceitam parâmetros na URL)."""
+    q = {"template": "cartao.yml", "acao": acao}
+    if id_: q["id"] = id_
+    if fonte: q["fontes"] = fonte
+    if titulo: q["titulo"] = titulo
+    q["title"] = "Cartão: " + (id_ or "novo")
+    return f"https://github.com/{REPO}/issues/new?" + "&".join(f"{k}={quote(v, safe='')}" for k, v in q.items())
+
 def cartoes_afetados(texto):
     return [c for c, rx in CARTOES if re.search(rx, texto, re.I)]
 
@@ -66,6 +78,8 @@ def le(fonte, url, desde):
 def main():
     ESTADO.parent.mkdir(exist_ok=True)  # a pasta não existe num checkout novo
     vistos = set(json.loads(ESTADO.read_text(encoding="utf8"))) if ESTADO.exists() else set()
+    if os.environ.get("VIGIA_REPROCESSAR") == "1":   # teste: ignora o que já foi visto
+        vistos = set()
     desde = datetime.now(timezone.utc) - timedelta(days=JANELA_DIAS)
     novos = []
     for fonte, url in FEEDS:
@@ -82,11 +96,15 @@ def main():
     if novos:
         linhas = ["Notícias novas sobre Flávio Bolsonaro nos veículos aceitos. **Nada foi publicado.** "
                   "Leia, e se algum fato mudar (status de investigação, decisão, resposta da defesa), "
-                  "abra uma issue com o formulário **Cartão do dossiê** (aba Issues, New issue), confira e ponha a etiqueta `aprovado`: o site é atualizado sozinho.", ""]
+                  "leia a matéria e clique em **atualizar** (ou **novo cartão**) na linha da notícia: o formulário abre com ID e fonte preenchidos. Escreva o resumo, a situação e a defesa, confira e ponha a etiqueta `aprovado`: o site é atualizado sozinho.", ""]
         for i in novos:
             c = cartoes_afetados(i["titulo"])
             dica = f" (cartão: {', '.join(c)})" if c else ""
+            fonte = f"{i['fonte']} | {i['link']}"
+            acoes = [f"[atualizar `{x}`]({link_formulario('Atualizar cartão existente', x, fonte)})" for x in c]
+            acoes.append(f"[novo cartão]({link_formulario('Novo cartão', None, fonte)})")
             linhas.append(f"- [ ] [{i['titulo']}]({i['link']}), {i['fonte']}, {i['data']}{dica}")
+            linhas.append("  " + " · ".join(acoes))
         linhas += ["", "Marque os itens já revisados e feche esta issue."]
         RELATORIO.write_text("\n".join(linhas) + "\n", encoding="utf8")
     vistos |= {i["link"] for i in novos}

@@ -6,6 +6,11 @@ on:
   schedule:
     - cron: "0 11,17,23 * * *"   # 08h, 14h e 20h em Brasília
   workflow_dispatch:
+    inputs:
+      reprocessar:
+        description: "Teste: listar de novo as notícias dos últimos 3 dias, mesmo as já vistas"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -18,12 +23,16 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Procurar notícias novas
+        env:
+          VIGIA_REPROCESSAR: ${{ inputs.reprocessar && '1' || '0' }}
         run: python3 scripts/vigia.py
 
       - name: Abrir Issue para revisão
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          gh label create cartao --color 0b2a5b --description "Cartão do dossiê (formulário)" --force
+          gh label create aprovado --color 1a7f37 --description "Aplicar este cartão ao site" --force
           if [ -f vigia/relatorio.md ]; then
             gh label create revisar --color 0b2a5b --description "Notícia nova para revisar o dossiê" --force
             gh issue create --label revisar --title "Notícias para revisar ($(TZ=America/Sao_Paulo date +'%d/%m %H:%M'))" --body-file vigia/relatorio.md

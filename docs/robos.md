@@ -31,6 +31,9 @@ Atenção ao limite do plano gratuito: confira no Netlify quantos deploys por m�
 - Se há notícia nova com tema relevante (PF, STF, investigação, emendas etc.), abre uma **Issue** com a etiqueta `revisar`, listando os links e indicando qual cartão do dossiê pode precisar de revisão.
 - **Não publica nem altera o site.** O dossiê só muda quando uma pessoa revisa e edita.
 - Guarda o que já foi visto em `vigia/vistos.json`, para não repetir.
+- Cada notícia da issue traz links **"atualizar `<cartão>`"** e **"novo cartão"**, que abrem o formulário já preenchido com a ação, o ID do cartão e a fonte (`Veículo | link`). Falta só escrever o resumo, a situação e a defesa e aprovar.
+- Para testar com notícias já vistas: Actions, "Vigia de notícias", Run workflow, marcando **reprocessar**.
+- Cria as etiquetas `cartao`, `aprovado` e `revisar` se ainda não existirem.
 
 ## `aprovar.yml`: aplicar uma issue aprovada
 
