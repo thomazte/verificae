@@ -43,6 +43,8 @@ CARTOES = [
     ("nobrega", r"N[óo]brega|mil[íi]cia"),
 ]
 
+PAGOS = {"Folha"}   # veículos com paywall: servem de alerta; cite a cobertura aberta
+
 REPO = os.environ.get("GITHUB_REPOSITORY", "thomazte/verificae")
 
 def link_formulario(acao, id_=None, fonte=None, titulo=None):
@@ -100,10 +102,15 @@ def main():
         for i in novos:
             c = cartoes_afetados(i["titulo"])
             dica = f" (cartão: {', '.join(c)})" if c else ""
-            fonte = f"{i['fonte']} | {i['link']}"
+            pago = i["fonte"] in PAGOS
+            fonte = None if pago else f"{i['fonte']} | {i['link']}"   # não sugere citar o que pode estar atrás de paywall
             acoes = [f"[atualizar `{x}`]({link_formulario('Atualizar cartão existente', x, fonte)})" for x in c]
             acoes.append(f"[novo cartão]({link_formulario('Novo cartão', None, fonte)})")
-            linhas.append(f"- [ ] [{i['titulo']}]({i['link']}), {i['fonte']}, {i['data']}{dica}")
+            if pago:
+                busca = "https://news.google.com/search?hl=pt-BR&gl=BR&ceid=BR:pt-419&q=" + quote(i["titulo"], safe="")
+                acoes.insert(0, f"[procurar cobertura aberta]({busca})")
+            marca = " 🔒 (pago)" if pago else ""
+            linhas.append(f"- [ ] [{i['titulo']}]({i['link']}), {i['fonte']}{marca}, {i['data']}{dica}")
             linhas.append("  " + " · ".join(acoes))
         linhas += ["", "Marque os itens já revisados e feche esta issue."]
         RELATORIO.write_text("\n".join(linhas) + "\n", encoding="utf8")
