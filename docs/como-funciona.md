@@ -7,6 +7,7 @@ Tudo está em `site/index.html`, sem build e sem dependências.
 Os cartões ficam em `site/dossie.json` (fonte da verdade) e são embutidos no `index.html`, entre os marcadores `/*DOSSIE*/` e `/*FIMDOSSIE*/`. Depois de editar o JSON à mão, rode `python3 scripts/dossie.py embutir`. O caminho normal é o fluxo de issues (veja [Conteúdo e revisão](conteudo.md)). Cada item tem:
 
 - `id`, `grupo` (`casos` ou `falas`), `status`, `data`, `titulo`, `resumo`;
+- `atualizado` e `ordem` (datas ISO, `aaaa-mm-dd`): `atualizado` é a data da última revisão do cartão e aparece como "atualizado em"; `ordem` define a posição na lista (mais recente primeiro) e, nos cartões antigos, é a data do fato mais recente. O robô de aprovação preenche os dois com a data do dia, e o cartão sobe para o topo;
 - `situacao` (estágio real do caso) e `defesa` (resposta de quem é citado);
 - `fontes`: lista de `[nome, link]`.
 

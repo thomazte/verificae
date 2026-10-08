@@ -169,9 +169,14 @@ def main():
         resultado.write_text("Não apliquei esta issue. Corrija e ponha a etiqueta `aprovado` de novo:\n\n" +
                              "\n".join(f"- {e}" for e in erros) + "\n", encoding="utf8")
         print("RECUSADA"); return 1
+    agora = datetime.now(ZoneInfo("America/Sao_Paulo"))
+    if acao in ("novo", "atualizar"):
+        for i in itens:
+            if i["id"] == id_:
+                i["atualizado"] = i["ordem"] = agora.strftime("%Y-%m-%d")   # revisado hoje: sobe para o topo
     dossie.salva(itens)
     dossie.embute(itens)
-    dossie.atualiza_data(datetime.now(ZoneInfo("America/Sao_Paulo")).strftime("%d/%m/%Y"))
+    dossie.atualiza_data(agora.strftime("%d/%m/%Y"))
     resultado.write_text(resumo_msg + "\n\nO site será publicado em 1 a 2 minutos. Issue fechada.\n", encoding="utf8")
     print("APLICADA:", resumo_msg); return 0
 

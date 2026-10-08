@@ -2093,7 +2093,9 @@ const ITEMS = /*DOSSIE*/[
     "Metrópoles (defesa)",
     "https://www.metropoles.com/brasil/frias-diz-que-flavio-nao-ofereceu-contrapartida-a-vorcaro-por-dark-horse"
    ]
-  ]
+  ],
+  "atualizado": "2026-10-07",
+  "ordem": "2026-09-10"
  },
  {
   "id": "emenda-peixe",
@@ -2117,7 +2119,9 @@ const ITEMS = /*DOSSIE*/[
     "Poder360 (resposta dele sobre Dino)",
     "https://www.poder360.com.br/poder-eleicoes-2026/flavio-diz-que-dino-faz-perseguicao-no-stf-em-apuracao-sobre-emendas/"
    ]
-  ]
+  ],
+  "atualizado": "2026-10-07",
+  "ordem": "2026-09-22"
  },
  {
   "id": "notas-fiscais",
@@ -2145,7 +2149,9 @@ const ITEMS = /*DOSSIE*/[
     "Metrópoles (Copenhagen e Master)",
     "https://www.metropoles.com/colunas/tacio-lorran/flavio-bolsonaro-emitiu-r-15-milhao-em-notas-para-empresas-usadas-em-esquema-de-vorcaro"
    ]
-  ]
+  ],
+  "atualizado": "2026-10-07",
+  "ordem": "2026-07-22"
  },
  {
   "id": "rachadinha",
@@ -2161,7 +2167,9 @@ const ITEMS = /*DOSSIE*/[
     "Conjur",
     "https://conjur.com.br/2022-mai-16/tj-rj-arquiva-denuncia-flavio-bolsonaro-rachadinha/"
    ]
-  ]
+  ],
+  "atualizado": "2026-10-07",
+  "ordem": "2022-05-16"
  },
  {
   "id": "kopenhagen",
@@ -2181,7 +2189,9 @@ const ITEMS = /*DOSSIE*/[
     "Poder360 (relato do ex-franqueador)",
     "https://www.poder360.com.br/brasil/empresario-diz-que-loja-de-flavio-bolsonaro-fraudava-notas-fiscais/"
    ]
-  ]
+  ],
+  "atualizado": "2026-10-07",
+  "ordem": "2022-05-16"
  },
  {
   "id": "abin",
@@ -2213,7 +2223,9 @@ const ITEMS = /*DOSSIE*/[
     "Poder360 (pedido da PGR)",
     "https://www.poder360.com.br/poder-justica/pgr-quer-que-investigacao-sobre-abin-paralela-va-para-1a-instancia/"
    ]
-  ]
+  ],
+  "atualizado": "2026-10-07",
+  "ordem": "2026-06-18"
  },
  {
   "id": "nobrega",
@@ -2229,7 +2241,9 @@ const ITEMS = /*DOSSIE*/[
     "Poder360",
     "https://poder360.com.br/justica/dialogos-sugerem-que-comparsas-de-adriano-da-nobrega-contactaram-bolsonaro-diz-site"
    ]
-  ]
+  ],
+  "atualizado": "2026-10-07",
+  "ordem": "2018-12-31"
  },
  {
   "id": "redemocratizar",
@@ -2261,7 +2275,9 @@ const ITEMS = /*DOSSIE*/[
     "G1",
     "https://g1.globo.com/politica/noticia/2026/10/08/flavio-reforca-que-se-eleito-quer-fim-reeleicao-ja-em-seu-governo.ghtml"
    ]
-  ]
+  ],
+  "atualizado": "2026-10-08",
+  "ordem": "2026-10-08"
  },
  {
   "id": "urnas",
@@ -2285,7 +2301,9 @@ const ITEMS = /*DOSSIE*/[
     "CNN Brasil (ação do PT)",
     "https://www.cnnbrasil.com.br/blogs/caio-junqueira/eleicoes/pt-aciona-tse-contra-declaracoes-de-flavio-bolsonaro-sobre-urna-eletronica/"
    ]
-  ]
+  ],
+  "atualizado": "2026-10-07",
+  "ordem": "2026-07-22"
  },
  {
   "id": "anistia",
@@ -2301,7 +2319,9 @@ const ITEMS = /*DOSSIE*/[
     "CNN Brasil",
     "https://www.cnnbrasil.com.br/politica/flavio-visita-anderson-torres-na-papuda-e-pede-anistia-a-condenados-do-8-1/"
    ]
-  ]
+  ],
+  "atualizado": "2026-10-07",
+  "ordem": "2026-05-02"
  }
 ]/*FIMDOSSIE*/;
 
@@ -2376,11 +2396,12 @@ function render(){
   renderChecks();
   const list=$("#list"); list.replaceChildren();
   const hideDossie = filtro==="checagens";
-  const items = hideDossie ? [] : ITEMS.filter(i=>filtro==="todos"||i.grupo===filtro);
+  const items = hideDossie ? [] : ITEMS.filter(i=>filtro==="todos"||i.grupo===filtro).sort((a,b)=>(b.ordem||b.atualizado||"").localeCompare(a.ordem||a.atualizado||""));
   items.forEach(it=>{
     const [bc,bt]=BADGES[it.status];
     const c=el("article","card"); c.id=it.id;
     const meta=el("div","meta"); meta.append(el("span","badge "+bc,bt), el("span",null,it.data));
+    if(it.atualizado) meta.append(el("span",null,"· atualizado em "+fmtData(it.atualizado)));
     c.append(meta, el("h2",null,it.titulo), el("p",null,it.resumo), box("Situação atual",it.situacao,"warn"), box("O que diz a defesa",it.defesa,"def"));
     const ul=el("ul","src");
     it.fontes.forEach(([n,u])=>{ const li=el("li"); const a=el("a",null,n); a.href=u; a.target="_blank"; a.rel="noopener noreferrer"; li.append("Fonte: ",a); ul.append(li); });
