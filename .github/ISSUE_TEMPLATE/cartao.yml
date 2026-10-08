@@ -12,12 +12,11 @@ body:
     id: acao
     attributes:
       label: Ação
+      description: "Pode deixar em branco: com o ID de um cartão que já existe, o robô ATUALIZA; sem ID, cria um NOVO. Para REMOVER, escolha a ação explicitamente."
       options:
         - Novo cartão
         - Atualizar cartão existente
         - Remover cartão
-    validations:
-      required: true
   - type: input
     id: id
     attributes:

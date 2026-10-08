@@ -3,7 +3,7 @@
 ## Fluxo: da notícia ao site
 
 1. O **vigia** abre uma issue `revisar` com notícias novas.
-2. Você lê as matérias. Se algo mudou, abra uma issue pelo formulário **Cartão do dossiê** (Issues, New issue). Escolha a ação: novo cartão, atualizar ou remover. Preencha os campos e as fontes (`Nome | https://link`, uma por linha).
+2. Você lê as matérias. Se algo mudou, abra uma issue pelo formulário **Cartão do dossiê** (Issues, New issue). A ação pode ficar em branco: com o ID de um cartão que já existe o robô atualiza, e sem ID cria um novo (para remover, escolha a ação explicitamente). Preencha os campos e as fontes (`Nome | https://link`, uma por linha).
 3. Confira e ponha a etiqueta **`aprovado`**. Só o dono do repositório consegue disparar.
 4. O robô valida, grava o cartão em `site/dossie.json`, atualiza a data do topo, comenta o resultado, fecha a issue e publica o site (1 a 2 minutos).
 

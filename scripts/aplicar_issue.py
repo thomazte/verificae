@@ -89,9 +89,7 @@ def main():
     get = lambda nome: limpa(campos.get(nome, ""))
     erros = []
 
-    acao = ACOES.get(get("Ação"))
-    if not acao:
-        erros.append("Ação inválida.")
+    acao = ACOES.get(get("Ação"))   # vazio é aceito: a ação é deduzida abaixo (remover exige escolha explícita)
     for nome, v in [("Título", get("Título")), ("Resumo", get("Resumo")), ("Situação atual", get("Situação atual")),
                     ("O que diz a defesa", get("O que diz a defesa")), ("Data ou período", get("Data ou período"))]:
         if "<" in v or ">" in v:
@@ -116,6 +114,8 @@ def main():
     if id_ and not re.fullmatch(r"[a-z0-9-]{3,40}", id_):
         erros.append("ID inválido: use de 3 a 40 letras minúsculas, números e hífens.")
 
+    if not acao:
+        acao = "atualizar" if id_ in por_id else "novo"
     resumo_msg = ""
     if not erros:
         if acao == "novo":
