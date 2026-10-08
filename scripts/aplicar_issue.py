@@ -118,6 +118,11 @@ def main():
 
     if not acao:
         acao = "atualizar" if id_ in por_id else "novo"
+    # Sem ID e sem título: quase certamente é uma atualização com o ID esquecido.
+    if not erros and acao == "novo" and not id_ and not novo["titulo"]:
+        erros.append("O campo **ID do cartão** está vazio. Para atualizar um cartão, informe o ID (ex.: `"
+                     + ", ".join(sorted(por_id)[:3]) + "`). Para criar um cartão novo, preencha ao menos o título, "
+                     "o resumo, a situação, a defesa, o grupo, o status, a data e uma fonte.")
     resumo_msg = ""
     if not erros:
         if acao == "novo":
