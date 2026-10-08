@@ -34,7 +34,7 @@ TEMA = re.compile(r"\b(PF|STF|TSE|PGR|MP|PL)\b|Mendon[çc]a|Moraes|Vorcaro|Maste
 CARTOES = [
     ("dark-horse", r"Dark Horse|Vorcaro|Master"),
     ("notas-fiscais", r"nota[s]? fiscal|Copenhagen|Cont[áa]bil Correa"),
-    ("emenda-peixe", r"emenda|Peixe|Marielle|Br[aã]z[aã]o"),
+    ("emenda-peixe", r"Peixe|Marielle|Br[aã]z[aã]o|\bemendas\b|emenda parlamentar|emenda Pix"),   # "emenda à Constituição" não conta
     ("rachadinha", r"rachadinha|Queiroz|Kopenhagen"),
     ("abin", r"Abin|Ramagem"),
     ("urnas", r"urna|Smartmatic"),
