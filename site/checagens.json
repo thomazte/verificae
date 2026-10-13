@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-12 18:19 UTC",
+ "atualizado": "2026-10-13 02:18 UTC",
  "itens": [
   {
    "titulo": "É falso que Flávio Bolsonaro teve 54,98% no 1º turno",
@@ -35,6 +35,76 @@
    "veredito": "checagem",
    "temas": [
     "Eleições 2026"
+   ]
+  },
+  {
+   "titulo": "Vídeo de mulher com suposta droga não é de ato pró-Lula em SP",
+   "link": "https://www.agencialupa.org/eleicoes/2026/10/12/video-de-mulher-com-suposta-droga-nao-e-de-ato-pro-lula-em-sp/",
+   "fonte": "Agência Lupa",
+   "data": "2026-10-12",
+   "veredito": "checagem",
+   "temas": [
+    "Eleições",
+    "campanha eleitoral",
+    "drogas",
+    "eleições 2026"
+   ]
+  },
+  {
+   "titulo": "Imagem de trabalhadora limpando pichações na Paulista foi gerada por IA",
+   "link": "https://www.agencialupa.org/eleicoes/2026/10/12/imagem-de-trabalhadora-limpando-pichacoes-na-paulista-foi-gerada-por-ia/",
+   "fonte": "Agência Lupa",
+   "data": "2026-10-12",
+   "veredito": "checagem",
+   "temas": [
+    "Eleições",
+    "Notícias",
+    "Avenida Paulista",
+    "Eleição 2026"
+   ]
+  },
+  {
+   "titulo": "Vídeo de homem cantando ponto de Umbanda não foi gravado em ato de Lula em SP",
+   "link": "https://www.agencialupa.org/jornalismo/2026/10/12/video-de-homem-cantando-ponto-de-umbanda-nao-foi-gravado-em-ato-de-lula-em-sp/",
+   "fonte": "Agência Lupa",
+   "data": "2026-10-12",
+   "veredito": "checagem",
+   "temas": [
+    "Eleições",
+    "campanha eleitoral",
+    "Eleição 2026",
+    "intolerância religiosa"
+   ]
+  },
+  {
+   "titulo": "É falso que mais de 90% dos presos votaram em Lula",
+   "link": "https://www.agencialupa.org/eleicoes/2026/10/12/e-falso-que-mais-de-90-dos-presos-votaram-em-lula/",
+   "fonte": "Agência Lupa",
+   "data": "2026-10-12",
+   "veredito": "falso",
+   "temas": [
+    "Eleições",
+    "Notícias",
+    "Eleição 2026",
+    "Lula"
+   ]
+  },
+  {
+   "titulo": "Vídeo de mulher com suposta substância ilícita não é de ato pró-Lula na Paulista",
+   "link": "https://www.aosfatos.org/noticias/video-mulher-droga-ato-pro-lula-na-paulista/",
+   "fonte": "Aos Fatos",
+   "data": "2026-10-12",
+   "veredito": "checagem",
+   "temas": []
+  },
+  {
+   "titulo": "É #FAKE que vídeo de mulher com suposta substância ilícita seja de ato pró-Lula na Paulista",
+   "link": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/12/e-fake-que-video-de-mulher-com-suposta-substancia-ilicita-seja-de-ato-pro-lula-na-paulista.ghtml",
+   "fonte": "G1 Fato ou Fake",
+   "data": "2026-10-12",
+   "veredito": "falso",
+   "temas": [
+    "G1"
    ]
   },
   {
