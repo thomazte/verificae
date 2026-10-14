@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-13 16:33 UTC",
+ "atualizado": "2026-10-14 00:00 UTC",
  "itens": [
   {
    "titulo": "Áudio satírico atribuído a Flávio Dino volta a circular como real",
@@ -17,6 +17,24 @@
   {
    "titulo": "É #FAKE foto de mulher limpando pichação em estação de Metrô após ato de Lula na Paulista; imagem foi manipulada com IA",
    "link": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/13/e-fake-foto-de-mulher-limpando-pichacao-em-estacao-de-metro-apos-ato-de-lula-na-paulista-imagem-foi-manipulada-com-ia.ghtml",
+   "fonte": "G1 Fato ou Fake",
+   "data": "2026-10-13",
+   "veredito": "falso",
+   "temas": [
+    "G1"
+   ]
+  },
+  {
+   "titulo": "Foto de manifestantes no McDonald's é de 2012 e não foi feita em SP",
+   "link": "https://www.aosfatos.org/noticias/manifestantes-no-mcdonalds/",
+   "fonte": "Aos Fatos",
+   "data": "2026-10-13",
+   "veredito": "checagem",
+   "temas": []
+  },
+  {
+   "titulo": "É #FAKE que vídeo mostre 'ritual de invocação' durante manifestação pró-Lula na Paulista; cena exibe Marcha para Exu em agosto",
+   "link": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/13/e-fake-que-video-mostre-ritual-de-invocacao-durante-manifestacao-pro-lula-na-paulista-cena-exibe-marcha-para-exu-em-agosto.ghtml",
    "fonte": "G1 Fato ou Fake",
    "data": "2026-10-13",
    "veredito": "falso",
