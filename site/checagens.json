@@ -1,6 +1,27 @@
 {
- "atualizado": "2026-10-14 23:31 UTC",
+ "atualizado": "2026-10-15 13:46 UTC",
  "itens": [
+  {
+   "titulo": "É falso que Rússia ameaçou os EUA em defesa do Brasil",
+   "link": "https://www.agencialupa.org/verificacao/2026/10/14/e-falso-que-russia-ameacou-os-eua-em-defesa-do-brasil/",
+   "fonte": "Agência Lupa",
+   "data": "2026-10-15",
+   "veredito": "falso",
+   "temas": [
+    "Eleições",
+    "verificação"
+   ]
+  },
+  {
+   "titulo": "#NÃOÉBEMASSIM: Bolsa Família teve reajuste maior que do salário mínimo em 2026, mas não supera aumento dos últimos três anos",
+   "link": "https://g1.globo.com/fato-ou-fake/noticia/2026/10/15/naoebemassim-bolsa-familia-teve-reajuste-maior-que-do-salario-minimo-em-2026-mas-nao-supera-aumento-dos-ultimos-tres-anos.ghtml",
+   "fonte": "G1 Fato ou Fake",
+   "data": "2026-10-15",
+   "veredito": "checagem",
+   "temas": [
+    "G1"
+   ]
+  },
   {
    "titulo": "É #FAKE que vídeo mostre luta entre professor de filosofia da USP e policial da Rota; cenas foram gravadas no México em 2024",
    "link": "https://g1.globo.com/fato-ou-fake/noticia/2026/10/14/e-fake-que-video-mostre-luta-entre-professor-de-filosofia-da-usp-e-policial-da-rota-cenas-foram-gravadas-no-mexico-em-2024.ghtml",
@@ -68,6 +89,36 @@
    "veredito": "falso",
    "temas": [
     "G1"
+   ]
+  },
+  {
+   "titulo": "Foto de manifestantes no McDonald's é de 2012 e não foi feita em SP",
+   "link": "https://aosfatos.org/noticias/manifestantes-no-mcdonalds/",
+   "fonte": "Aos Fatos",
+   "data": "2026-10-13",
+   "veredito": "checagem",
+   "temas": [
+    "Eleições 2026"
+   ]
+  },
+  {
+   "titulo": "Foto de Renan Santos ‘fazendo o L’ foi gerada por IA",
+   "link": "https://aosfatos.org/noticias/foto-renan-santos-fazendo-L-ia/",
+   "fonte": "Aos Fatos",
+   "data": "2026-10-13",
+   "veredito": "checagem",
+   "temas": [
+    "Eleições 2026"
+   ]
+  },
+  {
+   "titulo": "Vídeo não mostra ritual satânico durante ato pró-Lula na Paulista",
+   "link": "https://aosfatos.org/noticias/video-nao-mostra-ritual-satanico-ato-lula-paulista/",
+   "fonte": "Aos Fatos",
+   "data": "2026-10-13",
+   "veredito": "checagem",
+   "temas": [
+    "Eleições 2026"
    ]
   },
   {
@@ -174,6 +225,16 @@
    "veredito": "falso",
    "temas": [
     "G1"
+   ]
+  },
+  {
+   "titulo": "Imagem de trabalhadora limpando metrô na Paulista foi alterada por IA",
+   "link": "https://aosfatos.org/noticias/imagem-de-trabalhadora-limpando-metro-na-paulista-foi-alterada-por-ia/",
+   "fonte": "Aos Fatos",
+   "data": "2026-10-12",
+   "veredito": "checagem",
+   "temas": [
+    "Eleições 2026"
    ]
   },
   {
