@@ -1,6 +1,28 @@
 {
- "atualizado": "2026-10-16 23:05 UTC",
+ "atualizado": "2026-10-17 12:32 UTC",
  "itens": [
+  {
+   "titulo": "É falsa imagem que mostra Renan Santos fazendo o “L” de Lula",
+   "link": "https://www.agencialupa.org/verificacao/2026/10/16/e-falsa-imagem-que-mostra-renan-santos-fazendo-o-l-de-lula/",
+   "fonte": "Agência Lupa",
+   "data": "2026-10-17",
+   "veredito": "falso",
+   "temas": [
+    "Eleições",
+    "Lula",
+    "Renan Santos"
+   ]
+  },
+  {
+   "titulo": "Veja o que é #FATO ou #FAKE na entrevista de Flávio Bolsonaro à Globo no 2º turno das eleições 2026",
+   "link": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/16/veja-o-que-e-fato-ou-fake-na-entrevista-de-flavio-bolsonaro-a-globo-no-2o-turno-das-eleicoes-2026.ghtml",
+   "fonte": "G1 Fato ou Fake",
+   "data": "2026-10-17",
+   "veredito": "falso",
+   "temas": [
+    "G1"
+   ]
+  },
   {
    "titulo": "É falso que Marcola tenha declarado voto em Lula",
    "link": "https://www.agencialupa.org/verificacao/2026/10/15/e-falso-que-marcola-tenha-declarado-voto-em-lula/",
@@ -62,6 +84,16 @@
    ]
   },
   {
+   "titulo": "Vídeo mostra Círio de Nazaré, não ato de Flávio em Minas",
+   "link": "https://aosfatos.org/noticias/video-cirio-nazare-ato-flavio/",
+   "fonte": "Aos Fatos",
+   "data": "2026-10-16",
+   "veredito": "checagem",
+   "temas": [
+    "Eleições 2026"
+   ]
+  },
+  {
    "titulo": "É falso que Rússia ameaçou os EUA em defesa do Brasil",
    "link": "https://www.agencialupa.org/verificacao/2026/10/14/e-falso-que-russia-ameacou-os-eua-em-defesa-do-brasil/",
    "fonte": "Agência Lupa",
@@ -80,6 +112,26 @@
    "veredito": "checagem",
    "temas": [
     "G1"
+   ]
+  },
+  {
+   "titulo": "Foto de Janja beijando estátua satânica foi feita com IA",
+   "link": "https://aosfatos.org/noticias/foto-janja-beijando-estatua-satanica-ia/",
+   "fonte": "Aos Fatos",
+   "data": "2026-10-15",
+   "veredito": "checagem",
+   "temas": [
+    "Eleições 2026"
+   ]
+  },
+  {
+   "titulo": "Coca-Cola não fechou fábricas nem demitiu 900 funcionários no Brasil",
+   "link": "https://aosfatos.org/noticias/coca-cola-nao-fechou-fabricas-nem-demitiu/",
+   "fonte": "Aos Fatos",
+   "data": "2026-10-15",
+   "veredito": "checagem",
+   "temas": [
+    "Políticas públicas"
    ]
   },
   {
@@ -108,6 +160,17 @@
    "veredito": "falso",
    "temas": [
     "G1"
+   ]
+  },
+  {
+   "titulo": "‘Tropa do Flávio’ posta mais de duas mensagens enganosas por dia desde sua criação",
+   "link": "https://aosfatos.org/noticias/tropa-do-flavio-mensagens-enganosas/",
+   "fonte": "Aos Fatos",
+   "data": "2026-10-14",
+   "veredito": "enganoso",
+   "temas": [
+    "Reportagem",
+    "Eleições 2026"
    ]
   },
   {
