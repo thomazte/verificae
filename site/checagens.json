@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-20 13:56 UTC",
+ "atualizado": "2026-10-20 23:31 UTC",
  "itens": [
   {
    "titulo": "Reportagem da CNN Brasil sobre compra de votos não cita Flávio Bolsonaro",
@@ -30,6 +30,16 @@
    "fonte": "G1 Fato ou Fake",
    "data": "2026-10-20",
    "veredito": "falso",
+   "temas": [
+    "G1"
+   ]
+  },
+  {
+   "titulo": "É #FATO: vídeo mostra turistas empurrando malas em meio a protestos em Paris; assista",
+   "link": "https://g1.globo.com/fato-ou-fake/noticia/2026/10/20/e-fato-video-mostra-turistas-empurrando-malas-em-meio-a-protestos-em-paris-assista.ghtml",
+   "fonte": "G1 Fato ou Fake",
+   "data": "2026-10-20",
+   "veredito": "verdadeiro",
    "temas": [
     "G1"
    ]
