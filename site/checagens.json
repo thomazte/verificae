@@ -1,6 +1,40 @@
 {
- "atualizado": "2026-10-20 23:31 UTC",
+ "atualizado": "2026-10-21 14:12 UTC",
  "itens": [
+  {
+   "titulo": "É falso que Flávio Bolsonaro propôs elevar idade mínima da aposentadoria para 70 anos",
+   "link": "https://www.agencialupa.org/verificacao/2026/10/20/e-falso-que-flavio-bolsonaro-propos-elevar-idade-minima-da-aposentadoria-para-70-anos/",
+   "fonte": "Agência Lupa",
+   "data": "2026-10-21",
+   "veredito": "falso",
+   "temas": [
+    "Eleições",
+    "Aposentadoria",
+    "Flávio Bolsonaro",
+    "O Globo"
+   ]
+  },
+  {
+   "titulo": "Post distorce vídeo de 2019 sobre urnas dos EUA",
+   "link": "https://www.agencialupa.org/verificacao/2026/10/20/post-distorce-video-de-2019-sobre-urnas-dos-eua/",
+   "fonte": "Agência Lupa",
+   "data": "2026-10-21",
+   "veredito": "enganoso",
+   "temas": [
+    "Eleições",
+    "urnas eletrônicas"
+   ]
+  },
+  {
+   "titulo": "É #FAKE vídeo de bandeira da Palestina erguida no topo da Torre Eiffel; cena foi criada com IA",
+   "link": "https://g1.globo.com/fato-ou-fake/noticia/2026/10/21/e-fake-video-de-bandeira-da-palestina-erguida-no-topo-da-torre-eiffel-cena-foi-criada-com-ia.ghtml",
+   "fonte": "G1 Fato ou Fake",
+   "data": "2026-10-21",
+   "veredito": "falso",
+   "temas": [
+    "G1"
+   ]
+  },
   {
    "titulo": "Reportagem da CNN Brasil sobre compra de votos não cita Flávio Bolsonaro",
    "link": "https://www.agencialupa.org/verificacao/2026/10/19/reportagem-da-cnn-brasil-sobre-compra-de-votos-nao-cita-flavio-bolsonaro/",
