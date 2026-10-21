@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-21 14:12 UTC",
+ "atualizado": "2026-10-21 23:46 UTC",
  "itens": [
   {
    "titulo": "É falso que Flávio Bolsonaro propôs elevar idade mínima da aposentadoria para 70 anos",
@@ -28,6 +28,24 @@
   {
    "titulo": "É #FAKE vídeo de bandeira da Palestina erguida no topo da Torre Eiffel; cena foi criada com IA",
    "link": "https://g1.globo.com/fato-ou-fake/noticia/2026/10/21/e-fake-video-de-bandeira-da-palestina-erguida-no-topo-da-torre-eiffel-cena-foi-criada-com-ia.ghtml",
+   "fonte": "G1 Fato ou Fake",
+   "data": "2026-10-21",
+   "veredito": "falso",
+   "temas": [
+    "G1"
+   ]
+  },
+  {
+   "titulo": "Comparação entre posições do Brasil no Pisa em 2000 e 2025 é enganosa",
+   "link": "https://www.aosfatos.org/noticias/comparacao-posicoes-brasil-pisa/",
+   "fonte": "Aos Fatos",
+   "data": "2026-10-21",
+   "veredito": "enganoso",
+   "temas": []
+  },
+  {
+   "titulo": "É #FAKE vídeo de Brizola associando Jair Bolsonaro a milícias; material foi adulterado com inteligência artificial",
+   "link": "https://g1.globo.com/fato-ou-fake/noticia/2026/10/21/e-fake-video-de-brizola-associando-jair-bolsonaro-a-milicias-material-foi-adulterado-com-inteligencia-artificial.ghtml",
    "fonte": "G1 Fato ou Fake",
    "data": "2026-10-21",
    "veredito": "falso",
