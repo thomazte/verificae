@@ -1,6 +1,36 @@
 {
- "atualizado": "2026-10-22 14:10 UTC",
+ "atualizado": "2026-10-22 23:44 UTC",
  "itens": [
+  {
+   "titulo": "#FATO, #FAKE e #NÃOÉBEMASSIM: Entenda selos usados pelo Fato ou Fake nas checagens de debates e entrevistas em eleições",
+   "link": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/22/fato-fake-e-naoebemassim-entenda-selos-usados-pelo-fato-ou-fake-nas-checagens-de-debates-e-entrevistas-em-eleicoes.ghtml",
+   "fonte": "G1 Fato ou Fake",
+   "data": "2026-10-22",
+   "veredito": "falso",
+   "temas": [
+    "G1"
+   ]
+  },
+  {
+   "titulo": "Fato ou Fake: reveja as checagens das entrevistas de Flávio Bolsonaro e Lula e do debate da Band",
+   "link": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/22/fato-ou-fake-reveja-as-checagens-das-entrevistas-de-flavio-bolsonaro-e-lula-e-do-debate-da-band.ghtml",
+   "fonte": "G1 Fato ou Fake",
+   "data": "2026-10-22",
+   "veredito": "checagem",
+   "temas": [
+    "G1"
+   ]
+  },
+  {
+   "titulo": "Saiba como o Fato ou Fake checará declarações dos candidatos no debate de 2⁰ turno da Globo",
+   "link": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/22/saiba-como-o-fato-ou-fake-checara-declaracoes-dos-candidatos-no-debate-de-2-turno-da-globo.ghtml",
+   "fonte": "G1 Fato ou Fake",
+   "data": "2026-10-22",
+   "veredito": "checagem",
+   "temas": [
+    "G1"
+   ]
+  },
   {
    "titulo": "É falso que Flávio Bolsonaro propôs elevar idade mínima da aposentadoria para 70 anos",
    "link": "https://www.agencialupa.org/verificacao/2026/10/20/e-falso-que-flavio-bolsonaro-propos-elevar-idade-minima-da-aposentadoria-para-70-anos/",
