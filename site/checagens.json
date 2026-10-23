@@ -1,9 +1,37 @@
 {
- "atualizado": "2026-10-23 13:54 UTC",
+ "atualizado": "2026-10-23 23:37 UTC",
  "itens": [
   {
    "titulo": "Fato ou Fake: entenda como funcionam as checagens e o trabalho da equipe",
    "link": "https://g1.globo.com/fato-ou-fake/noticia/2026/10/22/fato-ou-fake-entenda-como-funcionam-as-checagens-e-o-trabalho-da-equipe.ghtml",
+   "fonte": "G1 Fato ou Fake",
+   "data": "2026-10-23",
+   "veredito": "checagem",
+   "temas": [
+    "G1"
+   ]
+  },
+  {
+   "titulo": "É falso que Lula passou mal e não vai ao debate da Globo",
+   "link": "https://www.aosfatos.org/noticias/falso-que-lula-passou-mal-nao-vai-debate-globo/",
+   "fonte": "Aos Fatos",
+   "data": "2026-10-23",
+   "veredito": "falso",
+   "temas": []
+  },
+  {
+   "titulo": "Fato ou Fake: veja como enviar sugestões, participar do canal no WhatsApp e seguir nas redes sociais",
+   "link": "https://g1.globo.com/fato-ou-fake/noticia/2026/10/23/fato-ou-fake-veja-como-enviar-sugestoes-participar-do-canal-no-whatsapp-e-seguir-nas-redes-sociais.ghtml",
+   "fonte": "G1 Fato ou Fake",
+   "data": "2026-10-23",
+   "veredito": "checagem",
+   "temas": [
+    "G1"
+   ]
+  },
+  {
+   "titulo": "Fato ou Fake existe desde 2018; conheça o histórico do serviço de checagens do Grupo Globo",
+   "link": "https://g1.globo.com/fato-ou-fake/noticia/2026/10/23/fato-ou-fake-existe-desde-2018-conheca-o-historico-do-servico-de-checagens-do-grupo-globo.ghtml",
    "fonte": "G1 Fato ou Fake",
    "data": "2026-10-23",
    "veredito": "checagem",
@@ -40,6 +68,14 @@
    "temas": [
     "G1"
    ]
+  },
+  {
+   "titulo": "É falso áudio em que Lula reclama de entrevista de Roberta Luchsinger à CNN",
+   "link": "https://www.aosfatos.org/noticias/falso-audio-lula-roberta-luchsinger-cnn/",
+   "fonte": "Aos Fatos",
+   "data": "2026-10-22",
+   "veredito": "falso",
+   "temas": []
   },
   {
    "titulo": "É falso que Flávio Bolsonaro propôs elevar idade mínima da aposentadoria para 70 anos",
