@@ -1,6 +1,31 @@
 {
- "atualizado": "2026-10-25 22:53 UTC",
+ "atualizado": "2026-10-26 15:34 UTC",
  "itens": [
+  {
+   "titulo": "Montagem simula notícia do g1 sobre saída de Flávio Bolsonaro do Brasil",
+   "link": "https://www.agencialupa.org/verificacao/2026/10/26/montagem-simula-noticia-do-g1-sobre-saida-de-flavio-bolsonaro-do-brasil/",
+   "fonte": "Agência Lupa",
+   "data": "2026-10-26",
+   "veredito": "checagem",
+   "temas": [
+    "Eleições",
+    "eleições 2026",
+    "Flávio Bolsonaro"
+   ]
+  },
+  {
+   "titulo": "Vídeo sobre brasileiros impedidos de votar em Londres é do 1º turno",
+   "link": "https://www.agencialupa.org/verificacao/2026/10/25/video-sobre-brasileiros-impedidos-de-votar-em-londres-e-do-1o-turno/",
+   "fonte": "Agência Lupa",
+   "data": "2026-10-26",
+   "veredito": "checagem",
+   "temas": [
+    "Eleições",
+    "eleição",
+    "Eleição 2026",
+    "Londres"
+   ]
+  },
   {
    "titulo": "É falso vídeo de Lula derrubando mesa em entrevista com Ratinho",
    "link": "https://www.agencialupa.org/jornalismo/2026/10/25/e-falso-video-de-lula-derrubando-mesa-em-entrevista-com-ratinho/",
@@ -96,6 +121,27 @@
     "eleições 2026",
     "IA"
    ]
+  },
+  {
+   "titulo": "Golpe usa nome da TIM para ameaçar usuários com bloqueio de CPF",
+   "link": "https://www.agencialupa.org/noticias/2026/10/25/golpe-usa-nome-da-tim-para-ameacar-usuarios-com-bloqueio-de-cpf/",
+   "fonte": "Agência Lupa",
+   "data": "2026-10-25",
+   "veredito": "checagem",
+   "temas": [
+    "Eleições",
+    "Notícias",
+    "CPF",
+    "Golpe do site falso"
+   ]
+  },
+  {
+   "titulo": "Da IA ultrarrealista ao WhatsApp, como a desinformação moldou as eleições",
+   "link": "https://www.aosfatos.org/noticias/ia-ultrarrealista-whatsapp-desinformacao-moldou-eleicoes/",
+   "fonte": "Aos Fatos",
+   "data": "2026-10-25",
+   "veredito": "enganoso",
+   "temas": []
   },
   {
    "titulo": "É falso o áudio em que Lula supostamente xinga Roberta Luchsinger após entrevista à CNN",
