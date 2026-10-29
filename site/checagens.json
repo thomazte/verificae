@@ -1,6 +1,32 @@
 {
- "atualizado": "2026-10-29 00:29 UTC",
+ "atualizado": "2026-10-29 15:42 UTC",
  "itens": [
+  {
+   "titulo": "É falso que Trump recepcionou Flávio Bolsonaro nos EUA; imagem foi gerada com IA",
+   "link": "https://www.agencialupa.org/verificacao/2026/10/29/e-falso-que-trump-recepcionou-flavio-bolsonaro-nos-eua-imagem-foi-gerada-com-ia/",
+   "fonte": "Agência Lupa",
+   "data": "2026-10-29",
+   "veredito": "falso",
+   "temas": [
+    "Donald Trump",
+    "Eleições",
+    "Estados Unidos",
+    "Flávio Bolsonaro"
+   ]
+  },
+  {
+   "titulo": "Vídeo da CNN de 2025 é usado para alegar que Lula vai acabar com o Bolsa Família",
+   "link": "https://www.agencialupa.org/verificacao/2026/10/29/video-da-cnn-de-2025-e-usado-para-alegar-que-lula-vai-acabar-com-o-bolsa-familia/",
+   "fonte": "Agência Lupa",
+   "data": "2026-10-29",
+   "veredito": "checagem",
+   "temas": [
+    "Bolsa Família",
+    "CNN",
+    "Eleições",
+    "governo federal"
+   ]
+  },
   {
    "titulo": "É falso que o governo Lula recuou sobre o fim da escala 6×1",
    "link": "https://www.agencialupa.org/verificacao/2026/10/28/e-falso-que-o-governo-lula-recuou-sobre-o-fim-da-escala-6x1/",
