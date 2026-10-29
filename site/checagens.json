@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-28 15:34 UTC",
+ "atualizado": "2026-10-29 00:29 UTC",
  "itens": [
   {
    "titulo": "É falso que o governo Lula recuou sobre o fim da escala 6×1",
@@ -30,6 +30,49 @@
   {
    "titulo": "É #FAKE que reportagem mostrou plano de Lula para encerrar Bolsa Família após 2º turno; vídeo de 2025 citou mudanças no programa",
    "link": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/28/e-fake-que-reportagem-mostrou-plano-de-lula-para-encerrar-bolsa-familia-apos-2o-turno-video-de-2025-citou-mudancas-no-programa.ghtml",
+   "fonte": "G1 Fato ou Fake",
+   "data": "2026-10-28",
+   "veredito": "falso",
+   "temas": [
+    "G1"
+   ]
+  },
+  {
+   "titulo": "É falso que Lula ganhou 2 milhões de votos na Bahia após decisão do STF",
+   "link": "https://www.agencialupa.org/eleicoes/2026/10/28/e-falso-que-lula-ganhou-2-milhoes-de-votos-na-bahia-apos-decisao-do-stf/",
+   "fonte": "Agência Lupa",
+   "data": "2026-10-28",
+   "veredito": "falso",
+   "temas": [
+    "Eleições",
+    "Bahia",
+    "eleição",
+    "Eleição 2026"
+   ]
+  },
+  {
+   "titulo": "Vídeo não mostra chegada de Flávio Bolsonaro nos EUA; gravação é antiga",
+   "link": "https://www.agencialupa.org/verificacao/2026/10/28/video-nao-mostra-chegada-de-flavio-bolsonaro-nos-eua-gravacao-e-antiga/",
+   "fonte": "Agência Lupa",
+   "data": "2026-10-28",
+   "veredito": "checagem",
+   "temas": [
+    "eleições 2026",
+    "EUA",
+    "Flávio Bolsonaro"
+   ]
+  },
+  {
+   "titulo": "É falso que governo prometeu R$ 5.000, mas só vai pagar R$ 363 no Pix MEI",
+   "link": "https://www.aosfatos.org/noticias/governo-5000-mas-so-vai-pagar-363-pix-mei/",
+   "fonte": "Aos Fatos",
+   "data": "2026-10-28",
+   "veredito": "falso",
+   "temas": []
+  },
+  {
+   "titulo": "É #FAKE que vídeo de veículo transportando urnas após transmissão de votos indica fraude na apuração",
+   "link": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/28/e-fake-que-video-de-veiculo-transportando-urnas-apos-transmissao-de-votos-indica-fraude-na-apuracao.ghtml",
    "fonte": "G1 Fato ou Fake",
    "data": "2026-10-28",
    "veredito": "falso",
