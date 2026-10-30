@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-29 15:42 UTC",
+ "atualizado": "2026-10-30 00:29 UTC",
  "itens": [
   {
    "titulo": "É falso que Trump recepcionou Flávio Bolsonaro nos EUA; imagem foi gerada com IA",
@@ -25,6 +25,82 @@
     "CNN",
     "Eleições",
     "governo federal"
+   ]
+  },
+  {
+   "titulo": "Reportagem que mostra cortes na Saúde e Educação não é atual; vídeo é de 2024",
+   "link": "https://www.agencialupa.org/jornalismo/2026/10/29/reportagem-que-mostra-cortes-na-saude-e-educacao-nao-e-atual-video-e-de-2024/",
+   "fonte": "Agência Lupa",
+   "data": "2026-10-29",
+   "veredito": "checagem",
+   "temas": [
+    "Eleições",
+    "Educação",
+    "Lula",
+    "Saúde"
+   ]
+  },
+  {
+   "titulo": "Vídeo de bandeira da Palestina na Torre Eiffel foi produzido por IA",
+   "link": "https://www.agencialupa.org/verificacao/2026/10/29/video-de-bandeira-da-palestina-na-torre-eiffel-foi-produzido-por-ia/",
+   "fonte": "Agência Lupa",
+   "data": "2026-10-29",
+   "veredito": "checagem",
+   "temas": [
+    "França",
+    "Internacional",
+    "Palestina",
+    "Paris"
+   ]
+  },
+  {
+   "titulo": "Vídeo mostra protesto de professores em setembro, não após reeleição de Lula",
+   "link": "https://aosfatos.org/noticias/video-protesto-professores-setembro/",
+   "fonte": "Aos Fatos",
+   "data": "2026-10-29",
+   "veredito": "checagem",
+   "temas": [
+    "Políticas públicas"
+   ]
+  },
+  {
+   "titulo": "Não é verdade que governo prevê corte de 670 mil beneficiários do BPC",
+   "link": "https://aosfatos.org/noticias/governo-corte-670-mil-bpc/",
+   "fonte": "Aos Fatos",
+   "data": "2026-10-29",
+   "veredito": "falso",
+   "temas": [
+    "Políticas públicas"
+   ]
+  },
+  {
+   "titulo": "Relatório apócrifo distorce microdados do TSE para alegar fraude eleitoral",
+   "link": "https://aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
+   "fonte": "Aos Fatos",
+   "data": "2026-10-29",
+   "veredito": "enganoso",
+   "temas": [
+    "Eleições 2026"
+   ]
+  },
+  {
+   "titulo": "É #FAKE que governo federal recuou sobre fim da escala 6x1 após vitória de Lula no segundo turno das eleições 2026",
+   "link": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/29/e-fake-que-governo-federal-recuou-sobre-fim-da-escala-6x1-apos-vitoria-de-lula-no-segundo-turno-das-eleicoes-2026.ghtml",
+   "fonte": "G1 Fato ou Fake",
+   "data": "2026-10-29",
+   "veredito": "falso",
+   "temas": [
+    "G1"
+   ]
+  },
+  {
+   "titulo": "É #FAKE que governo Lula 'bloqueou' Gás do Povo e Bolsa Família após eleições de 2026",
+   "link": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/29/e-fake-que-governo-lula-bloqueou-gas-do-povo-e-bolsa-familia-apos-eleicoes-de-2026.ghtml",
+   "fonte": "G1 Fato ou Fake",
+   "data": "2026-10-29",
+   "veredito": "falso",
+   "temas": [
+    "G1"
    ]
   },
   {
@@ -104,6 +180,56 @@
    "veredito": "falso",
    "temas": [
     "G1"
+   ]
+  },
+  {
+   "titulo": "Governo Lula não suspendeu pagamento de dezembro do Gás do Povo",
+   "link": "https://aosfatos.org/noticias/governo-lula-pagamento-dezembro-gas-do-povo/",
+   "fonte": "Aos Fatos",
+   "data": "2026-10-28",
+   "veredito": "checagem",
+   "temas": [
+    "Políticas públicas"
+   ]
+  },
+  {
+   "titulo": "É falso que governo prometeu R$ 5.000, mas só vai pagar R$ 363 no Pix MEI",
+   "link": "https://aosfatos.org/noticias/governo-5000-mas-so-vai-pagar-363-pix-mei/",
+   "fonte": "Aos Fatos",
+   "data": "2026-10-28",
+   "veredito": "falso",
+   "temas": [
+    "Políticas públicas"
+   ]
+  },
+  {
+   "titulo": "Notícia sobre cortes no Bolsa Família é de 2023, não atual",
+   "link": "https://aosfatos.org/noticias/noticia-cortes-bolsa-familia-2023/",
+   "fonte": "Aos Fatos",
+   "data": "2026-10-28",
+   "veredito": "checagem",
+   "temas": [
+    "Políticas públicas"
+   ]
+  },
+  {
+   "titulo": "Soma de votos de três seções eleitorais na BA não comprova fraude",
+   "link": "https://aosfatos.org/noticias/soma-votos-tres-secoes-ba-nao-comprova-fraude/",
+   "fonte": "Aos Fatos",
+   "data": "2026-10-28",
+   "veredito": "checagem",
+   "temas": [
+    "Eleições 2026"
+   ]
+  },
+  {
+   "titulo": "Vídeo não prova que Lula teve 165 mil votos de origem não identificada",
+   "link": "https://aosfatos.org/noticias/lula-165-mil-votos-origem-nao-identificada/",
+   "fonte": "Aos Fatos",
+   "data": "2026-10-28",
+   "veredito": "checagem",
+   "temas": [
+    "Eleições 2026"
    ]
   },
   {
@@ -194,6 +320,16 @@
    "veredito": "falso",
    "temas": [
     "G1"
+   ]
+  },
+  {
+   "titulo": "Notícia sobre bloqueio de R$ 6 bilhões na Saúde e Educação é de julho de 2024",
+   "link": "https://aosfatos.org/noticias/noticia-sobre-bloqueio-de-r-6-bilhoes-na-saude-e-educacao-e-de-julho-de-2024/",
+   "fonte": "Aos Fatos",
+   "data": "2026-10-27",
+   "veredito": "checagem",
+   "temas": [
+    "Eleições 2026"
    ]
   },
   {
