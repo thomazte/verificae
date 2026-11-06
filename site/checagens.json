@@ -1,9 +1,79 @@
 {
- "atualizado": "2026-11-05 16:55 UTC",
+ "atualizado": "2026-11-06 01:14 UTC",
  "itens": [
   {
    "titulo": "É #FAKE que INSS vai bloquear pagamentos de benefícios a quem não cadastrar biometria até novembro de 2026",
    "link": "https://g1.globo.com/fato-ou-fake/noticia/2026/11/05/e-fake-que-inss-vai-bloquear-pagamentos-de-beneficios-a-quem-nao-cadastrar-biometria-ate-novembro-de-2026.ghtml",
+   "fonte": "G1 Fato ou Fake",
+   "data": "2026-11-05",
+   "veredito": "falso",
+   "temas": [
+    "G1"
+   ]
+  },
+  {
+   "titulo": "É falso que 8 milhões de votos sem biometria comprovam fraude nas eleições",
+   "link": "https://www.agencialupa.org/eleicoes/2026/11/05/e-falso-que-8-milhoes-de-votos-sem-biometria-comprovam-fraude-nas-eleicoes/",
+   "fonte": "Agência Lupa",
+   "data": "2026-11-05",
+   "veredito": "falso",
+   "temas": [
+    "Eleições",
+    "Eleição 2026",
+    "Flávio Bolsonaro",
+    "fraude"
+   ]
+  },
+  {
+   "titulo": "É de 2021 vídeo de pessoas procurando comida em caminhão de lixo no Ceará",
+   "link": "https://www.agencialupa.org/verificacao/2026/11/05/e-de-2021-video-de-pessoas-procurando-comida-em-caminhao-de-lixo-no-ceara/",
+   "fonte": "Agência Lupa",
+   "data": "2026-11-05",
+   "veredito": "checagem",
+   "temas": [
+    "Flávio Bolsonaro",
+    "fome",
+    "Luiz Inácio Lula da Silva",
+    "pandemia"
+   ]
+  },
+  {
+   "titulo": "É falsa lista de cidades que registraram mais votos que habitantes",
+   "link": "https://www.aosfatos.org/noticias/lista-cidades-mais-votos-que-habitantes/",
+   "fonte": "Aos Fatos",
+   "data": "2026-11-05",
+   "veredito": "falso",
+   "temas": []
+  },
+  {
+   "titulo": "Vídeo de pessoas buscando comida em caminhão de lixo não é posterior à reeleição de Lula",
+   "link": "https://www.aosfatos.org/noticias/video-pessoas-buscam-comida-caminhao-lixo-reeleicao-lula/",
+   "fonte": "Aos Fatos",
+   "data": "2026-11-05",
+   "veredito": "checagem",
+   "temas": []
+  },
+  {
+   "titulo": "É falso que MPF disse que não há prova de corrupção no governo Bolsonaro",
+   "link": "https://www.aosfatos.org/noticias/mpf-prova-corrupcao-governo-bolsonaro/",
+   "fonte": "Aos Fatos",
+   "data": "2026-11-05",
+   "veredito": "falso",
+   "temas": []
+  },
+  {
+   "titulo": "É #FAKE mensagem sobre 'Auxílio Reconstrução 2026'; golpe voltou a circular",
+   "link": "https://g1.globo.com/fato-ou-fake/noticia/2026/11/05/e-fake-mensagem-sobre-auxilio-reconstrucao-2026-golpe-voltou-a-circular.ghtml",
+   "fonte": "G1 Fato ou Fake",
+   "data": "2026-11-05",
+   "veredito": "falso",
+   "temas": [
+    "G1"
+   ]
+  },
+  {
+   "titulo": "É #FAKE que cena de pessoas pegando comida em caminhão de lixo ocorreu durante governo Lula; vídeo foi gravado em 2021",
+   "link": "https://g1.globo.com/fato-ou-fake/noticia/2026/11/05/e-fake-que-cena-de-pessoas-pegando-comida-em-caminhao-de-lixo-ocorreu-durante-governo-lula-video-foi-gravado-em-2021.ghtml",
    "fonte": "G1 Fato ou Fake",
    "data": "2026-11-05",
    "veredito": "falso",
@@ -78,6 +148,14 @@
    "temas": [
     "G1"
    ]
+  },
+  {
+   "titulo": "É falso que reportagem mostra fila após bloqueio do auxílio-gás",
+   "link": "https://www.aosfatos.org/noticias/reportagem-fila-bloqueio-auxilio-gas/",
+   "fonte": "Aos Fatos",
+   "data": "2026-11-04",
+   "veredito": "falso",
+   "temas": []
   },
   {
    "titulo": "É falso que Daniel Vorcaro foi solto após as eleições",
