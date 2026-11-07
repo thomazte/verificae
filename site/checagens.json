@@ -1,6 +1,70 @@
 {
- "atualizado": "2026-11-06 16:26 UTC",
+ "atualizado": "2026-11-07 00:28 UTC",
  "itens": [
+  {
+   "titulo": "Notícia viral sobre isenção de IPVA para motoristas de aplicativos é para a Paraíba",
+   "link": "https://www.agencialupa.org/verificacao/2026/11/06/noticia-viral-sobre-isencao-de-ipva-para-motoristas-de-aplicativos-e-para-a-paraiba/",
+   "fonte": "Agência Lupa",
+   "data": "2026-11-06",
+   "veredito": "checagem",
+   "temas": [
+    "Economia",
+    "IPVA",
+    "Paraíba"
+   ]
+  },
+  {
+   "titulo": "Vídeo de imigrantes brasileiros no Paraguai é anterior à reeleição de Lula",
+   "link": "https://www.agencialupa.org/jornalismo/2026/11/06/video-de-imigrantes-brasileiros-no-paraguai-e-anterior-a-reeleicao-de-lula/",
+   "fonte": "Agência Lupa",
+   "data": "2026-11-06",
+   "veredito": "checagem",
+   "temas": [
+    "Eleições",
+    "Lula",
+    "Paraguai"
+   ]
+  },
+  {
+   "titulo": "É sátira vídeo que mostra relato de brasileiro decepcionado com custo de vida no Paraguai",
+   "link": "https://www.agencialupa.org/verificacao/2026/11/06/e-satira-video-que-mostra-relato-de-brasileiro-decepcionado-com-custo-de-vida-no-paraguai/",
+   "fonte": "Agência Lupa",
+   "data": "2026-11-06",
+   "veredito": "checagem",
+   "temas": [
+    "Economia",
+    "Flávio Bolsonaro",
+    "Paraguai"
+   ]
+  },
+  {
+   "titulo": "É falso que vídeo mostre protesto após supostos cortes no Bolsa Família e vale-gás",
+   "link": "https://www.aosfatos.org/noticias/protesto-cortes-bolsa-familia-vale-gas/",
+   "fonte": "Aos Fatos",
+   "data": "2026-11-06",
+   "veredito": "falso",
+   "temas": []
+  },
+  {
+   "titulo": "É #FAKE que votos de Lula nas eleições superaram total de habitantes em cidades do Brasil; vídeo foi fabricado com IA",
+   "link": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/11/06/e-fake-que-votos-de-lula-nas-eleicoes-superaram-total-de-habitantes-em-cidades-do-brasil-video-foi-fabricado-com-ia.ghtml",
+   "fonte": "G1 Fato ou Fake",
+   "data": "2026-11-06",
+   "veredito": "falso",
+   "temas": [
+    "G1"
+   ]
+  },
+  {
+   "titulo": "É #FAKE que vídeo mostre postes explodindo e casa destelhada durante tornado em Chapecó; cena ocorreu nos EUA em 2024",
+   "link": "https://g1.globo.com/fato-ou-fake/noticia/2026/11/06/e-fake-que-video-mostre-postes-explodindo-e-casa-destelhada-durante-tornado-em-chapeco-cena-ocorreu-nos-eua-em-2024.ghtml",
+   "fonte": "G1 Fato ou Fake",
+   "data": "2026-11-06",
+   "veredito": "falso",
+   "temas": [
+    "G1"
+   ]
+  },
   {
    "titulo": "É #FAKE que INSS vai bloquear pagamentos de benefícios a quem não cadastrar biometria até novembro de 2026",
    "link": "https://g1.globo.com/fato-ou-fake/noticia/2026/11/05/e-fake-que-inss-vai-bloquear-pagamentos-de-beneficios-a-quem-nao-cadastrar-biometria-ate-novembro-de-2026.ghtml",
@@ -79,6 +143,19 @@
    "veredito": "falso",
    "temas": [
     "G1"
+   ]
+  },
+  {
+   "titulo": "É falso que Republicanos conquistaram maioria da Câmara dos Deputados dos EUA em 2026",
+   "link": "https://www.agencialupa.org/verificacao/2026/11/05/e-falso-que-republicanos-conquistaram-maioria-da-camara-dos-deputados-dos-eua-em-2026/",
+   "fonte": "Agência Lupa",
+   "data": "2026-11-05",
+   "veredito": "falso",
+   "temas": [
+    "Donald Trump",
+    "Eleições",
+    "Estados Unidos",
+    "Falso"
    ]
   },
   {
