@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-09 19:16 UTC",
+ "atualizado": "2026-11-10 03:02 UTC",
  "itens": [
   {
    "titulo": "É falso que governo Lula aprovou volta do DPVAT em 2027",
@@ -15,6 +15,39 @@
    "fonte": "Aos Fatos",
    "data": "2026-11-09",
    "veredito": "falso",
+   "temas": []
+  },
+  {
+   "titulo": "Simpsons não previram apagão global em 2026",
+   "link": "https://www.agencialupa.org/verificacao/2026/11/09/simpsons-nao-previram-apagao-global-em-2026/",
+   "fonte": "Agência Lupa",
+   "data": "2026-11-09",
+   "veredito": "checagem",
+   "temas": [
+    "Notícias",
+    "conspiração",
+    "emergência ambiental",
+    "os simpsons"
+   ]
+  },
+  {
+   "titulo": "É falso que Lula nomeou o filho ‘Lulinha’ para fiscalizar entregas do governo",
+   "link": "https://www.agencialupa.org/verificacao/2026/11/09/e-falso-que-lula-nomeou-o-filho-lulinha-para-fiscalizar-entregas-do-governo/",
+   "fonte": "Agência Lupa",
+   "data": "2026-11-09",
+   "veredito": "falso",
+   "temas": [
+    "Luiz Inácio Lula da Silva",
+    "Lulinha",
+    "Política"
+   ]
+  },
+  {
+   "titulo": "Não há nova lei que garanta benefício do INSS a donas de casa que não contribuíram",
+   "link": "https://www.aosfatos.org/noticias/beneficio-inss-donas-casa-nao-contribuiram/",
+   "fonte": "Aos Fatos",
+   "data": "2026-11-09",
+   "veredito": "checagem",
    "temas": []
   },
   {
