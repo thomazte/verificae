@@ -1,6 +1,18 @@
 {
- "atualizado": "2026-11-12 02:03 UTC",
+ "atualizado": "2026-11-12 17:12 UTC",
  "itens": [
+  {
+   "titulo": "Comparação entre preços de combustíveis nas gestões Lula e Bolsonaro omite variações",
+   "link": "https://www.agencialupa.org/jornalismo/2026/11/12/comparacao-entre-precos-de-combustiveis-nas-gestoes-lula-e-bolsonaro-omite-variacoes/",
+   "fonte": "Agência Lupa",
+   "data": "2026-11-12",
+   "veredito": "checagem",
+   "temas": [
+    "Jair Bolsonaro",
+    "Luiz Inácio Lula da Silva",
+    "Petrobras"
+   ]
+  },
   {
    "titulo": "É antigo o vídeo em que Nikolas Ferreira alega bloqueio de conta no Instagram",
    "link": "https://www.agencialupa.org/jornalismo/2026/11/11/e-antigo-o-video-em-que-nikolas-ferreira-alega-bloqueio-de-conta-no-instagram/",
@@ -23,6 +35,30 @@
    "temas": [
     "G1"
    ]
+  },
+  {
+   "titulo": "É falso post em que Janones diz que bolsonarista deveria morrer queimado",
+   "link": "https://www.aosfatos.org/noticias/falso-post-janones-bolsonarista-morrer-queimado/",
+   "fonte": "Aos Fatos",
+   "data": "2026-11-11",
+   "veredito": "falso",
+   "temas": []
+  },
+  {
+   "titulo": "É falso que Enem não terá questões de matemática neste ano",
+   "link": "https://www.aosfatos.org/noticias/enem-questoes-matematica/",
+   "fonte": "Aos Fatos",
+   "data": "2026-11-11",
+   "veredito": "falso",
+   "temas": []
+  },
+  {
+   "titulo": "Não é verdade que PF concluiu investigação de repasses de Vorcaro a ‘Dark Horse’",
+   "link": "https://www.aosfatos.org/noticias/pf-investigacao-repasses-vorcaro-dark-horse/",
+   "fonte": "Aos Fatos",
+   "data": "2026-11-11",
+   "veredito": "falso",
+   "temas": []
   },
   {
    "titulo": "Interrupção de sinal de rádio e TV nos EUA será temporária e não tem relação com ‘crise global’",
