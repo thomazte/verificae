@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-13 16:50 UTC",
+ "atualizado": "2026-11-14 01:06 UTC",
  "itens": [
   {
    "titulo": "Foto não mostra protesto de 1 milhão de pessoas contra o governo Milei",
@@ -25,6 +25,45 @@
     "Lula",
     "Pix",
     "split payment"
+   ]
+  },
+  {
+   "titulo": "Vídeo não mostra fila causada por bolsonaristas de saída do Paraguai",
+   "link": "https://www.agencialupa.org/verificacao/2026/11/13/video-nao-mostra-fila-causada-por-bolsonaristas-de-saida-do-paraguai/",
+   "fonte": "Agência Lupa",
+   "data": "2026-11-13",
+   "veredito": "checagem",
+   "temas": [
+    "Notícias",
+    "Bolsonaristas",
+    "Brasil",
+    "imigrantes"
+   ]
+  },
+  {
+   "titulo": "Enem não excluiu matemática para cobrar conteúdos sobre Chico Buarque e Rouanet",
+   "link": "https://www.agencialupa.org/verificacao/2026/11/13/enem-nao-excluiu-matematica-para-cobrar-conteudos-sobre-chico-buarque-e-rouanet/",
+   "fonte": "Agência Lupa",
+   "data": "2026-11-13",
+   "veredito": "checagem",
+   "temas": [
+    "Chico Buarque",
+    "Educação",
+    "Enem",
+    "Lei Rouanet"
+   ]
+  },
+  {
+   "titulo": "É de 2016 vídeo sobre cobrança de valores de aposentados pelo INSS",
+   "link": "https://www.agencialupa.org/verificacao/2026/11/13/e-de-2016-video-sobre-cobranca-de-valores-de-aposentados-pelo-inss/",
+   "fonte": "Agência Lupa",
+   "data": "2026-11-13",
+   "veredito": "checagem",
+   "temas": [
+    "Notícias",
+    "Aposentadoria",
+    "Luiz Inácio Lula da Silva",
+    "Previdência Social"
    ]
   },
   {
