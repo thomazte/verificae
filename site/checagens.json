@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-14 15:23 UTC",
+ "atualizado": "2026-11-15 00:29 UTC",
  "itens": [
   {
    "titulo": "Vídeo de tornado foi gravado em 2024 nos EUA, não em Chapecó",
@@ -76,6 +76,22 @@
     "Luiz Inácio Lula da Silva",
     "Previdência Social"
    ]
+  },
+  {
+   "titulo": "Reportagem sobre pente-fino no INSS não é atual, mas de 2016",
+   "link": "https://www.aosfatos.org/noticias/reportagem-pente-fino-inss-2016/",
+   "fonte": "Aos Fatos",
+   "data": "2026-11-13",
+   "veredito": "checagem",
+   "temas": []
+  },
+  {
+   "titulo": "É falso que pagamento do Pix MEI só começa em 2030",
+   "link": "https://www.aosfatos.org/noticias/pagamento-pix-mei/",
+   "fonte": "Aos Fatos",
+   "data": "2026-11-13",
+   "veredito": "falso",
+   "temas": []
   },
   {
    "titulo": "Comparação entre preços de combustíveis nas gestões Lula e Bolsonaro omite variações",
