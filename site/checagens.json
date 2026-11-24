@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-23 20:40 UTC",
+ "atualizado": "2026-11-24 05:03 UTC",
  "itens": [
   {
    "titulo": "É antigo vídeo que mostra agricultores descartando cebolas na Bahia",
@@ -23,6 +23,22 @@
    "temas": [
     "G1"
    ]
+  },
+  {
+   "titulo": "O Globo não noticiou que Flávio Bolsonaro usou vestido como disfarce para fuga",
+   "link": "https://www.aosfatos.org/noticias/flavio-bolsonaro-vestido-fuga/",
+   "fonte": "Aos Fatos",
+   "data": "2026-11-23",
+   "veredito": "falso",
+   "temas": []
+  },
+  {
+   "titulo": "É falso que ex-presidente Jair Bolsonaro morreu",
+   "link": "https://www.aosfatos.org/noticias/e-falso-jair-bolsonaro-morreu/",
+   "fonte": "Aos Fatos",
+   "data": "2026-11-23",
+   "veredito": "falso",
+   "temas": []
   },
   {
    "titulo": "É #FAKE que Pix MEI de até R$ 5 mil terá de baixar para R$ 363 para 'caber' no orçamento reservado pelo governo",
