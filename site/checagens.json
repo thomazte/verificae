@@ -1,6 +1,47 @@
 {
- "atualizado": "2026-11-24 05:03 UTC",
+ "atualizado": "2026-11-24 19:46 UTC",
  "itens": [
+  {
+   "titulo": "Marco Rubio não disse que Lula conspirou contra os EUA",
+   "link": "https://www.agencialupa.org/verificacao/2026/11/24/marco-rubio-nao-disse-que-lula-conspirou-contra-os-eua/",
+   "fonte": "Agência Lupa",
+   "data": "2026-11-24",
+   "veredito": "falso",
+   "temas": [
+    "Notícias",
+    "Donald Trump",
+    "EUA",
+    "Irã"
+   ]
+  },
+  {
+   "titulo": "É antigo vídeo que mostra protesto com faixa contra Lula em Petrolina",
+   "link": "https://www.agencialupa.org/verificacao/2026/11/24/e-antigo-video-que-mostra-protesto-com-faixa-contra-lula-em-petrolina/",
+   "fonte": "Agência Lupa",
+   "data": "2026-11-24",
+   "veredito": "checagem",
+   "temas": [
+    "Lula"
+   ]
+  },
+  {
+   "titulo": "É falso que TSE destruiu urnas usadas nas eleições de 2026",
+   "link": "https://www.aosfatos.org/noticias/tse-urnas-eleicoes-2026/",
+   "fonte": "Aos Fatos",
+   "data": "2026-11-24",
+   "veredito": "falso",
+   "temas": []
+  },
+  {
+   "titulo": "É #FAKE que vídeo de descarte de cebolas na Bahia tenha a ver com alta de preços em 2026; cena há dois anos",
+   "link": "https://g1.globo.com/fato-ou-fake/noticia/2026/11/24/e-fake-que-video-de-descarte-de-cebolas-na-bahia-tenha-a-ver-com-alta-de-precos-em-2026-cena-ha-dois-anos.ghtml",
+   "fonte": "G1 Fato ou Fake",
+   "data": "2026-11-24",
+   "veredito": "falso",
+   "temas": [
+    "G1"
+   ]
+  },
   {
    "titulo": "É antigo vídeo que mostra agricultores descartando cebolas na Bahia",
    "link": "https://www.agencialupa.org/jornalismo/2026/11/23/e-antigo-video-que-mostra-agricultores-descartando-cebolas-na-bahia/",
