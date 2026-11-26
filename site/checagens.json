@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-25 18:52 UTC",
+ "atualizado": "2026-11-26 03:16 UTC",
  "itens": [
   {
    "titulo": "Imagem de produtores descartando leite é de protesto em Pernambuco em 2019",
@@ -37,6 +37,52 @@
     "Luiz Inácio Lula da Silva",
     "Saúde",
     "STF"
+   ]
+  },
+  {
+   "titulo": "É antigo vídeo de homem descartando caixas de tomate",
+   "link": "https://www.agencialupa.org/verificacao/2026/11/25/e-antigo-video-de-homem-descartando-caixas-de-tomate/",
+   "fonte": "Agência Lupa",
+   "data": "2026-11-25",
+   "veredito": "checagem",
+   "temas": [
+    "Economia",
+    "Política"
+   ]
+  },
+  {
+   "titulo": "É falso o site que anuncia promoção de Natal com cestas da Cacau Show",
+   "link": "https://www.agencialupa.org/verificacao/2026/11/25/e-falso-o-site-que-anuncia-promocao-de-natal-com-cestas-da-cacau-show/",
+   "fonte": "Agência Lupa",
+   "data": "2026-11-25",
+   "veredito": "falso",
+   "temas": [
+    "Cacau Show",
+    "fraude",
+    "Golpe",
+    "Natal"
+   ]
+  },
+  {
+   "titulo": "Fim da escala 6×1 não altera regras de desconto por falta injustificada",
+   "link": "https://www.agencialupa.org/verificacao/2026/11/25/fim-da-escala-6x1-nao-altera-regras-de-desconto-por-falta-injustificada/",
+   "fonte": "Agência Lupa",
+   "data": "2026-11-25",
+   "veredito": "checagem",
+   "temas": [
+    "escala 6X1",
+    "Ministério do Trabalho",
+    "reforma trabalhista"
+   ]
+  },
+  {
+   "titulo": "É #FAKE mensagem de WhatsApp sobre promoção da Cacau Show com brinde de Natal; trata-se de golpe",
+   "link": "https://g1.globo.com/fato-ou-fake/noticia/2026/11/25/e-fake-mensagem-de-whatsapp-sobre-promocao-da-cacau-show-com-brinde-de-natal-trata-se-de-golpe.ghtml",
+   "fonte": "G1 Fato ou Fake",
+   "data": "2026-11-25",
+   "veredito": "falso",
+   "temas": [
+    "G1"
    ]
   },
   {
