@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-27 18:33 UTC",
+ "atualizado": "2026-11-28 02:59 UTC",
  "itens": [
   {
    "titulo": "Redução de limite do cartão de crédito por BC não impacta todos os clientes",
@@ -58,6 +58,39 @@
    "fonte": "G1 Fato ou Fake",
    "data": "2026-11-27",
    "veredito": "falso",
+   "temas": [
+    "G1"
+   ]
+  },
+  {
+   "titulo": "Repetição de registro de título de mesário não comprova fraude em eleição",
+   "link": "https://www.agencialupa.org/verificacao/2026/11/27/repeticao-de-registro-de-titulo-de-mesario-nao-comprova-fraude-em-eleicao/",
+   "fonte": "Agência Lupa",
+   "data": "2026-11-27",
+   "veredito": "checagem",
+   "temas": [
+    "Eleições",
+    "eleições 2026",
+    "fraude eleitoral",
+    "TSE"
+   ]
+  },
+  {
+   "titulo": "É #FAKE que Familhão faz chamada de vídeo ou manda WhatsApp pedindo senha ou dinheiro para liberar prêmio; trata-se de golpe",
+   "link": "https://g1.globo.com/fato-ou-fake/noticia/2026/11/27/e-fake-que-familhao-faz-chamada-de-video-ou-manda-whatsapp-pedindo-senha-ou-dinheiro-para-liberar-premio-trata-se-de-golpe.ghtml",
+   "fonte": "G1 Fato ou Fake",
+   "data": "2026-11-27",
+   "veredito": "falso",
+   "temas": [
+    "G1"
+   ]
+  },
+  {
+   "titulo": "#NÃOÉBEMASSIM: STF não proibiu pacientes de irem à Justiça por remédios fora da lista do SUS, mas impôs condições para liberação",
+   "link": "https://g1.globo.com/fato-ou-fake/noticia/2026/11/27/naoebemassim-stf-nao-proibiu-pacientes-de-irem-a-justica-por-remedios-fora-da-lista-do-sus-mas-impos-condicoes-para-liberacao.ghtml",
+   "fonte": "G1 Fato ou Fake",
+   "data": "2026-11-27",
+   "veredito": "checagem",
    "temas": [
     "G1"
    ]
